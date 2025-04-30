@@ -23,7 +23,7 @@ const LandingSection: React.FC = () => {
   return (
     <div className="relative h-screen w-full">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "url('/images/banner-desktop.jpg')",
@@ -36,7 +36,7 @@ const LandingSection: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-white">
         {/* Main Heading */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -51,7 +51,7 @@ const LandingSection: React.FC = () => {
         </motion.div>
 
         {/* Top Search Bar */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -66,7 +66,7 @@ const LandingSection: React.FC = () => {
               onKeyPress={handleKeyPress}
               className="flex-grow p-3 text-gray-800 focus:outline-none"
             />
-            <button 
+            <button
               className="bg-green-500 hover:bg-green-600 transition-colors text-white px-6 py-3 flex items-center"
               onClick={handleSearch}
             >
@@ -75,8 +75,13 @@ const LandingSection: React.FC = () => {
             </button>
           </div>
         </motion.div>
+
+
       </div>
+
+    
     </div>
+    
   );
 };
 

@@ -5,11 +5,11 @@ import {
     Phone,
     Mail,
     MapPin,
-    Facebook,
     Instagram,
     ChevronRight,
-    Clock
+     
 } from "lucide-react";
+
 
 const Footer: React.FC = () => {
     // Animation variants
@@ -45,21 +45,21 @@ const Footer: React.FC = () => {
     ];
 
     const popularDestinations = [
-        { name: "Rishikesh", path: "/packages/uttarakhand/rishikesh" },
-        { name: "Manali", path: "/packages/himachal/manali" },
-        { name: "Shimla", path: "/packages/himachal/shimla" },
-        { name: "Nainital", path: "/packages/uttarakhand/nainital" },
-        { name: "Dharamshala", path: "/packages/himachal/dharamshala" },
-        { name: "Kasol", path: "/packages/himachal/kasol" },
+        {name: "Nag Tibba Trek", path: '/packages/nag-tibba-trek'}, 
+        { name: "Rishikesh", path: "/packages/rishikesh" },
+        { name: "Manali", path: "/packages/manali" },
+        { name: "Shimla", path: "/packages/shimla" },
+        { name: "Nainital", path: "/packages/nainital" },
+        { name: "Dharamshala", path: "/packages/dharamshala" },  
     ];
 
     const popularActivities = [
-        { name: "Star Gazing", path: "/activities/star-gazing" },
-        { name: "River Rafting", path: "/activities/river-rafting" },
-        { name: "Jungle Safari", path: "/activities/jungle-safari" },
-        { name: "Bungee Jumping", path: "/activities/bungee-jumping" },
-        { name: "Paragliding", path: "/activities/paragliding" },
-        { name: "Hiking", path: "/activities/hiking" },
+        { name: "Star Gazing", path: "/activity/star-gazing" },
+        { name: "River Rafting", path: "/activity/river-rafting" },
+        { name: "Jungle Safari", path: "/activity/jungle-safari" },
+        { name: "Bungee Jumping", path: "/activity/bungee-jumping" },
+        { name: "Paragliding", path: "/activity/paragliding" },
+        { name: "Hiking", path: "/activity/hiking" },
     ];
 
     const currentYear = new Date().getFullYear();
@@ -92,15 +92,6 @@ const Footer: React.FC = () => {
                         </p>
                         <div className="flex space-x-4 mt-6">
                             <motion.a
-                                href="https://facebook.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                whileHover={{ scale: 1.2 }}
-                                className="bg-white text-green-600 p-2 rounded-full hover:bg-blue-300 transition-colors duration-300"
-                            >
-                                <Facebook size={18} />
-                            </motion.a>
-                            <motion.a
                                 href="https://instagram.com/y_k_adventure"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -110,16 +101,6 @@ const Footer: React.FC = () => {
                                 <Instagram size={18} />
                             </motion.a>
 
-                            {/*               
-              <motion.a 
-                href="https://youtube.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.2 }}
-                className="bg-white text-green-600 p-2 rounded-full hover:bg-blue-300 transition-colors duration-300"
-              >
-                <Youtube size={18} />
-              </motion.a> */}
                         </div>
                     </motion.div>
 
@@ -194,35 +175,6 @@ const Footer: React.FC = () => {
                         </div>
                     </motion.div>
                 </div>
-
-                {/* Newsletter  
-        <motion.div 
-          variants={itemVariants}
-          className="mt-12 py-6 px-6 bg-green-700 rounded-lg"
-        >
-          <div className="grid md:grid-cols-3 gap-4 items-center">
-            <div className="md:col-span-1">
-              <h3 className="text-xl font-bold">Subscribe to Our Newsletter</h3>
-              <p className="text-green-100 mt-2">Get exclusive deals and travel updates</p>
-            </div>
-            <div className="md:col-span-2">
-              <form className="flex flex-col sm:flex-row gap-4">
-                <input 
-                  type="email" 
-                  placeholder="Your Email Address" 
-                  className="flex-grow px-4 py-3 rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-green-400"
-                />
-                <motion.button 
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="px-6 py-3 bg-white text-green-600 font-bold rounded-md hover:bg-blue-300 transition-colors duration-300"
-                >
-                  Subscribe
-                </motion.button>
-              </form>
-            </div>
-          </div>
-        </motion.div> */}
 
                 {/* Bottom Footer */}
                 <motion.div variants={itemVariants} className="mt-12 pt-6 border-t border-green-500">

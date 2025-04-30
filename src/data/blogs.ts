@@ -19,7 +19,7 @@ const blogs: { [key: string]: BlogProps } = {
   "ultimate-guide-trekking-uttarakhand": {
     slug: "ultimate-guide-trekking-uttarakhand",
     title: "The Ultimate Guide to Trekking in Uttarakhand",
-    image1: "/images/uttarakhand-mountains.jpg",
+    image1: "/images/uk1.jpg",
     image2: "/images/roopkund-lake.jpg",
     image3: "/images/valley-of-flowers.jpg",
     image4: "/images/kedarkantha-peak.jpg",
@@ -86,7 +86,7 @@ Trekking in Uttarakhand is more than just an adventure; it's a journey through n
   "valley-of-flowers-trek": {
     slug: "valley-of-flowers-trek",
     title: "Discovering the Valley of Flowers Trek",
-    image1: "/images/valley-flowers-hero.jpg",
+    image1: "/images/vf1.jpg",
     image2: "/images/valley-flowers-2.jpg",
     image3: "/images/valley-flowers-3.jpg",
     image4: "/images/valley-flowers-4.jpg",
@@ -145,7 +145,7 @@ The Valley of Flowers trek is not just a visual treat but also a spiritual journ
   "roopkund-trek-adventure": {
     slug: "roopkund-trek-adventure",
     title: "Mystery of Roopkund Trek",
-    image1: "/images/roopkund-hero.jpg",
+    image1: "/images/roopkund.webp",
     image2: "/images/roopkund-2.jpg",
     image3: "/images/roopkund-3.jpg",
     image4: "/images/roopkund-4.jpg",
@@ -214,7 +214,7 @@ Whether you're an experienced trekker seeking your next challenge or a history e
   "kedarnath-trek-guide": {
     slug: "kedarnath-trek-guide",
     title: "Spiritual Journey: Kedarnath Trek",
-    image1: "/images/kedarnath-hero.jpg",
+    image1: "/images/kd1.jpg",
     image2: "/images/kedarnath-2.jpg",
     image3: "/images/kedarnath-3.jpg",
     image4: "/images/kedarnath-4.jpg",

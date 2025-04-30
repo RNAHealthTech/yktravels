@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Package } from '../data/packages';
+import BookingModal from './BookingModal';
 
 interface PackageTemplateProps {
     packageData: Package;
@@ -9,6 +10,7 @@ interface PackageTemplateProps {
 const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
     const [activeTab, setActiveTab] = useState('Overview');
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const tabs = ['Overview', 'Itinerary', 'Cost', 'FAQs', 'Map'];
 
@@ -29,6 +31,8 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
         inactive: { borderBottom: '2px solid transparent', color: '#6b7280' }
     };
 
+    
+
     const renderTabContent = () => {
         switch (activeTab) {
             case 'Overview':
@@ -40,7 +44,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                             transition={{ duration: 0.5 }}
                             className="text-3xl font-semibold text-gray-700 mb-4"
                         >
-                            {packageData?.overview &&  packageData.overview.title}
+                            {packageData?.overview && packageData.overview.title}
                         </motion.h2>
                         <motion.p
                             initial={{ opacity: 0, y: 20 }}
@@ -48,17 +52,17 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                             transition={{ duration: 0.5, delay: 0.1 }}
                             className="text-gray-600 mb-6"
                         >
-                            { packageData?.overview && packageData.overview.description}
+                            {packageData?.overview && packageData.overview.description}
                         </motion.p>
-                        
-                        
+
+
                         <motion.ul
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.2 }}
                             className="space-y-4"
                         >
-                            { packageData?.overview && packageData?.overview?.activities && packageData.overview.activities.map((activity, index) => (
+                            {packageData?.overview && packageData?.overview?.activities && packageData.overview.activities.map((activity, index) => (
                                 <li key={index} className="mb-4">
                                     <div className="flex items-start">
                                         <span className="text-2xl mr-2">{activity.emoji}</span>
@@ -69,8 +73,6 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                                     </div>
                                 </li>
                             ))}
-
-
                         </motion.ul>
                     </div>
                 );
@@ -85,7 +87,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         >
                             Itinerary
                         </motion.h2>
-                        { packageData?.itinerary && packageData.itinerary.map((day, index) => (
+                        {packageData?.itinerary && packageData.itinerary.map((day, index) => (
                             <motion.div
                                 key={day.day}
                                 initial={{ opacity: 0, y: 20 }}
@@ -96,7 +98,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                                 <h3 className="text-xl font-semibold text-gray-700 mb-2">Day {day.day}: {day.title}</h3>
                                 <p className="text-gray-600 mb-3">{day.description}</p>
                                 <ul className="list-disc pl-5 space-y-1 text-gray-600">
-                                    {day?.activities  && day.activities.map((activity, actIndex) => (
+                                    {day?.activities && day.activities.map((activity, actIndex) => (
                                         <li key={actIndex}>{activity}</li>
                                     ))}
                                 </ul>
@@ -123,7 +125,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         >
                             <h3 className="text-xl font-semibold text-gray-700 mb-2">What's Included</h3>
                             <ul className="list-disc pl-5 space-y-1 text-gray-600">
-                                { packageData?.cost && packageData.cost.includes.map((item, index) => (
+                                {packageData?.cost && packageData.cost.includes.map((item, index) => (
                                     <li key={index}>{item}</li>
                                 ))}
                             </ul>
@@ -136,7 +138,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         >
                             <h3 className="text-xl font-semibold text-gray-700 mb-2">What's Excluded</h3>
                             <ul className="list-disc pl-5 space-y-1 text-gray-600">
-                                { packageData?.cost && packageData.cost.excludes.map((item, index) => (
+                                {packageData?.cost && packageData.cost.excludes.map((item, index) => (
                                     <li key={index}>{item}</li>
                                 ))}
                             </ul>
@@ -309,6 +311,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                 </div>
             </div>
 
+            {/* Trip Info Section */}
             {/* Package Description */}
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -334,7 +337,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         </div>
                         <div>
                             <span className="block text-green-500 text-sm">Accommodation</span>
-                            <span className="block text-gray-700">{ packageData?.tripInfo && packageData.tripInfo.accommodation.text}</span>
+                            <span className="block text-gray-700">{packageData?.tripInfo && packageData.tripInfo.accommodation.text}</span>
                         </div>
                     </div>
 
@@ -354,7 +357,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         </div>
                         <div>
                             <span className="block text-green-500 text-sm">Best Season</span>
-                            <span className="block text-gray-700">{ packageData?.tripInfo && packageData.tripInfo.bestSeason.text}</span>
+                            <span className="block text-gray-700">{packageData?.tripInfo && packageData.tripInfo.bestSeason.text}</span>
                         </div>
                     </div>
 
@@ -364,7 +367,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         </div>
                         <div>
                             <span className="block text-green-500 text-sm">Guide</span>
-                            <span className="block text-gray-700">{ packageData.tripInfo  && packageData.tripInfo.guide.text}</span>
+                            <span className="block text-gray-700">{packageData.tripInfo && packageData.tripInfo.guide.text}</span>
                         </div>
                     </div>
 
@@ -374,7 +377,34 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         </div>
                         <div>
                             <span className="block text-green-500 text-sm">Maximum Altitude</span>
-                            <span className="block text-gray-700">{ packageData?.tripInfo  && packageData.tripInfo.maximumAltitude.text}</span>
+                            <span className="block text-gray-700">{packageData?.tripInfo && packageData.tripInfo.maximumAltitude.text}</span>
+                        </div>
+                    </div>
+
+
+
+                    <div className="flex items-start">
+                        <div className="text-green-500 mr-3">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            >
+                                <path d="M12 4c-4.42 0-8 1.79-8 4v4c0 2.21 3.58 4 8 4s8-1.79 8-4V8c0-2.21-3.58-4-8-4z" />
+                                <path d="M4 8h16" />
+                            </svg>
+                        </div>
+                        <div>
+                            <span className="block text-green-500 text-sm">Meals</span>
+                            <span className="block text-gray-700">
+                                {packageData?.tripInfo && packageData.tripInfo?.meals && packageData.tripInfo.meals.text}
+                            </span>
                         </div>
                     </div>
 
@@ -384,14 +414,18 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         </div>
                         <div>
                             <span className="block text-green-500 text-sm">Transportation</span>
-                            <span className="block text-gray-700">{ packageData?.tripInfo && packageData?.tripInfo.transportation.text}</span>
+                            <span className="block text-gray-700">{packageData?.tripInfo && packageData?.tripInfo.transportation.text}</span>
                         </div>
                     </div>
                 </div>
             </motion.div>
 
+
+
+
+
             {/* Tab Navigation */}
-            <div className="border-b border-gray-200 mb-6 overflow-x-hidden">
+            < div className="border-b border-gray-200 mb-6 overflow-x-hidden" >
                 <nav className="flex -mb-px space-x-8 min-w-max">
                     {tabs.map((tab) => (
                         <motion.button
@@ -407,7 +441,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         </motion.button>
                     ))}
                 </nav>
-            </div>
+            </div >
 
             {/* Tab Content */}
             {renderTabContent()}
@@ -427,14 +461,16 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                     <span className="text-3xl font-bold text-gray-800">₹{packageData.price}</span>
                     <span className="text-gray-600 ml-2">/ Adult</span>
                 </div>
-                <button className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-md transition-colors">
+                <button onClick={() => setIsModalOpen(true)} className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-md transition-colors">
                     CHECK AVAILABILITY
                 </button>
                 <div className="text-center mt-4 text-sm text-gray-600">
                     Need help with booking? <a href="#" className="text-green-500 hover:text-green-600">Send Us A Message</a>
                 </div>
             </motion.div>
+            <BookingModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} packageData={packageData} />
         </div>
+
     );
 };
 

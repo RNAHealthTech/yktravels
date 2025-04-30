@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-const TransportationPage = () => {
+  
+
+const TransportationPage:React.FC = () => {
   // Image carousel data
   const carouselImages = [
     "/images/car1.jpg",
@@ -11,7 +13,6 @@ const TransportationPage = () => {
     "/images/car-6.jpg", 
     "/images/car-7.png"
   ];
-
   // Locations with their details
   const locations = [
     {
@@ -29,6 +30,10 @@ const TransportationPage = () => {
     {
       name: "Shimla",
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54493.31301566513!2d77.1340577!3d31.0782194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390578e3e35d6e67%3A0x1f7e7ff6ff9f54b7!2sShimla%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1651077951484!5m2!1sen!2sin",
+    },
+    {
+      name: "Delhi", 
+      mapEmbedUrl: " https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.1950802431484!2d77.23835787592604!3d28.653876983110294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfce26ec085ef%3A0x441e32f4fa5002fb!2sRed%20Fort!5e0!3m2!1sen!2sin!4v1746002619337!5m2!1sen!2sin"
     },
     {
       name: "Punjab",
