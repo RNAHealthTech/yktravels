@@ -5,8 +5,62 @@ import { ArrowRight } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { Package } from '../data/packages';
 import Activities from '../data/activities';
+import { Helmet } from 'react-helmet';
 
-// Card component for package (reused from HomeServices)
+ 
+
+interface SEOMetaProps {
+  activitySlug: string;
+  title: string;
+  image: string;
+  content: string;
+}
+
+
+
+const ActivitySEOMeta: React.FC<SEOMetaProps> = ({ activitySlug, title, image, content }) => {
+  // Generate a concise description (first 160 characters or first sentence)
+  const cleanContent = content.replace(/<[^>]*>/g, ''); // Remove HTML tags
+  const shortDescription = cleanContent.length > 160
+      ? cleanContent.substring(0, 160) + '...'
+      : cleanContent;
+
+    const firstSentence = cleanContent.split('. ')[0] + '.';
+    const description = shortDescription || firstSentence || `Explore ${title} and other exciting activities.`;
+
+
+  const keywords = `${title}, activity, adventure, explore, travel, tourism`; // Basic keywords, you can expand
+
+  // Construct the URL.
+  const pageUrl = `/activities/${activitySlug}`;
+
+  return (
+      <Helmet>
+          <title>{title} - Discover Exciting Activities</title>
+          <meta name="description" content={description} />
+          <meta name="keywords" content={keywords} />
+
+          {/* Open Graph / Facebook */}
+          <meta property="og:type" content="article" /> {/* Use "article" for activity pages */}
+          <meta property="og:url" content={pageUrl} />
+          <meta property="og:title" content={title} />
+          <meta property="og:description" content={description} />
+          <meta property="og:image" content={image} /> {/* Use the activity image */}
+
+          {/* Twitter */}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content={pageUrl} />
+          <meta property="twitter:title" content={title} />
+          <meta property="twitter:description" content={description} />
+          <meta property="twitter:image" content={image} />
+
+          {/* Canonical URL */}
+          <link rel="canonical" href={pageUrl} />
+      </Helmet>
+  );
+};
+
+
 const PackageCard = ({ pkg }: { pkg: Package }) => {
   const navigate = useNavigate();    
 
@@ -99,7 +153,9 @@ const ActivityTemplate = () => {
   if (!activity) return null;
 
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <>
+    <ActivitySEOMeta title={activity.title} activitySlug={activity.activitySlug} image={activity.image} content={activity.content} />
+        <div className="bg-gray-50 min-h-screen">
       {/* Hero Section */}
       <motion.div 
         className="relative h-80 lg:h-96"
@@ -192,6 +248,7 @@ const ActivityTemplate = () => {
         </motion.div>
       </section>
     </div>
+    </>
   );
 };
 

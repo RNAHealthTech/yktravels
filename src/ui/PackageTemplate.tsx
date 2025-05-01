@@ -2,10 +2,68 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Package } from '../data/packages';
 import BookingModal from './BookingModal';
+import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
+import { handleClick } from '../pages/Home';
+
+interface SEOMetaProps {
+    packageData: Package;
+    pageType?: 'package' | 'other'; // Optional: Specify the page type
+}
+
 
 interface PackageTemplateProps {
     packageData: Package;
 }
+
+
+const SEOMeta: React.FC<SEOMetaProps> = ({ packageData, pageType = 'package' }) => {
+    const defaultDescription = "Explore amazing travel packages and tours.";
+    const defaultKeywords = "travel, tour, vacation, holiday, adventure";
+
+    // Fallback values in case packageData is incomplete
+    const title = packageData.title || "Travel Package";
+    const description = packageData.shortDescription || defaultDescription;
+    const keywords = packageData.activityTags ? [...packageData.activityTags, defaultKeywords].join(', ') : defaultKeywords;
+    const imageUrl = packageData.images && packageData.images.length > 0 ? packageData.images[0].src : ''; // Get the first image URL
+
+
+    // Construct the URL.  This is VERY important for canonical URLs and social sharing.
+    //  You'll need to adapt this to your actual routing structure.
+    let pageUrl = '/'; // Default, fallback
+    if (pageType === 'package') {
+        pageUrl = `/packages/${packageData.slug}`; //  e.g., /packages/nepal-trekking
+    } else {
+      pageUrl = '/';
+    }
+
+    return (
+        <Helmet>
+            <title>{title} - Your Perfect Trip</title>
+            <meta name="description" content={description} />
+            <meta name="keywords" content={keywords} />
+
+            {/* Open Graph / Facebook */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content={pageUrl} />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={imageUrl} />
+
+            {/* Twitter */}
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content={pageUrl} />
+            <meta property="twitter:title" content={title} />
+            <meta property="twitter:description" content={description} />
+            <meta property="twitter:image" content={imageUrl} />
+
+            {/* Canonical URL */}
+            <link rel="canonical" href={pageUrl} />
+        </Helmet>
+    );
+};
+
+
 
 const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
     const [activeTab, setActiveTab] = useState('Overview');
@@ -31,7 +89,7 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
         inactive: { borderBottom: '2px solid transparent', color: '#6b7280' }
     };
 
-    
+
 
     const renderTabContent = () => {
         switch (activeTab) {
@@ -245,18 +303,26 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         >
                             <div className="md:flex">
                                 <div className="md:w-1/3">
-                                    {stay.images.length > 0 && (
+                                    
                                         <img
-                                            src={stay.images[0].src}
+                                            src='/images/hotel-2.jpeg'
                                             alt={stay.images[0].alt}
                                             className="w-full h-48 md:h-full object-cover"
                                         />
-                                    )}
+                                  
+                                </div>
+                                <div className="md:w-1/3">
+                                   
+                                        <img
+                                            src='/images/resort-2.jpeg'
+                                            alt={stay.images[0].alt}
+                                            className="w-full h-48 md:h-full object-cover"
+                                        />
+
+                                   
                                 </div>
                                 <div className="p-6 md:w-2/3">
-                                    <h3 className="text-xl font-semibold text-gray-700 mb-2">{stay.name}</h3>
-                                    <p className="text-gray-600 mb-4">{stay.description}</p>
-                                    <div>
+                                         <div>
                                         <h4 className="font-medium text-gray-700 mb-2">Amenities:</h4>
                                         <div className="flex flex-wrap gap-2">
                                             {stay.amenities.map((amenity, index) => (
@@ -274,11 +340,14 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         </motion.div>
                     ))}
                 </div>
+                <p className='text-sm text-green-800'>Not included in Package*</p>
             </div>
         );
     };
 
     return (
+        <>
+        <SEOMeta packageData={packageData}  />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 mt-28">
             {/* Hero Section with Image Slider */}
             <div className="mb-10 relative rounded-lg overflow-hidden h-96">
@@ -358,6 +427,21 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                         <div>
                             <span className="block text-green-500 text-sm">Best Season</span>
                             <span className="block text-gray-700">{packageData?.tripInfo && packageData.tripInfo.bestSeason.text}</span>
+                        </div>
+                    </div>
+
+                    <div className="flex items-start">
+                        <div className="text-green-500 mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M14 16H9m-4-5h14l-1.5-4.5h-11L5 11z" />
+                                <path d="M5 11v5a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-1h4v1a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-5" />
+                                <circle cx="7" cy="14" r="1" />
+                                <circle cx="17" cy="14" r="1" />
+                            </svg>
+                        </div>
+                        <div>
+                            <span className="block text-green-500 text-sm">Pickup Point</span>
+                            <span className="block text-gray-700">{packageData?.tripInfo && packageData?.tripInfo?.pickupPoint && packageData.tripInfo.pickupPoint.text}</span>
                         </div>
                     </div>
 
@@ -465,12 +549,12 @@ const PackageTemplate: React.FC<PackageTemplateProps> = ({ packageData }) => {
                     CHECK AVAILABILITY
                 </button>
                 <div className="text-center mt-4 text-sm text-gray-600">
-                    Need help with booking? <a href="#" className="text-green-500 hover:text-green-600">Send Us A Message</a>
+                    Need help with booking? <Link to="#" onClick={handleClick} className="text-green-500 hover:text-green-600">Send Us A Message</Link>
                 </div>
             </motion.div>
             <BookingModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} packageData={packageData} />
         </div>
-
+        </>
     );
 };
 

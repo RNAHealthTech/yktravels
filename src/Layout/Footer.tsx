@@ -46,11 +46,11 @@ const Footer: React.FC = () => {
 
     const popularDestinations = [
         {name: "Nag Tibba Trek", path: '/packages/nag-tibba-trek'}, 
-        { name: "Rishikesh", path: "/packages/rishikesh" },
-        { name: "Manali", path: "/packages/manali" },
-        { name: "Shimla", path: "/packages/shimla" },
-        { name: "Nainital", path: "/packages/nainital" },
-        { name: "Dharamshala", path: "/packages/dharamshala" },  
+        { name: "Rishikesh", path: "/packages/rishikesh-yk-travels" },
+        { name: "Manali", path: "/packages/manali-yk-travels" },
+        { name: "Shimla", path: "/packages/shimla-yk-travels" },
+        { name: "Nainital", path: "/packages/nainital-yk-travels" },
+        { name: "Dharamshala", path: "/packages/dharamshala-yk-travels" },  
     ];
 
     const popularActivities = [
@@ -170,6 +170,12 @@ const Footer: React.FC = () => {
                                 <Mail size={20} className="mr-2 flex-shrink-0" />
                                 <a href="mailto:singhpankaj008@gmail.com" className="text-green-100 hover:text-white">
                                 singhpankaj008@gmail.com
+                                </a>
+                            </div>
+                            <div className="flex items-center">
+                                <Mail size={20} className="mr-2 flex-shrink-0" />
+                                <a href="https://yktravels.com/sitemap.xml" className="text-green-100 hover:text-white">
+                                    sitemap
                                 </a>
                             </div>
                         </div>

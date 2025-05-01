@@ -61,6 +61,16 @@ const PackageCard = ({ pkg }: { pkg: Package }) => {
   );
 };
 
+// Function to shuffle an array (Fisher-Yates algorithm)
+const shuffleArray = <T,>(array: T[]): T[] => {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+};
+
 // Extract day number from duration string (e.g. "3 Days, 2 Nights" => 3)
 const extractDayNumber = (duration: string): number => {
   const match = duration.match(/(\d+)\s*Days?/i);
@@ -69,6 +79,7 @@ const extractDayNumber = (duration: string): number => {
 
 const HomeServices = () => {
   const [packages, setPackages] = useState<Package[]>([]);
+  const [displayPackages, setDisplayPackages] = useState<Package[]>([]);
   const [filteredPackages, setFilteredPackages] = useState<Package[]>([]);
   const [loading, setLoading] = useState(true);
   const [states, setStates] = useState<string[]>([]);
@@ -77,14 +88,28 @@ const HomeServices = () => {
   // Filter states
   const [selectedState, setSelectedState] = useState<string>("");
   const [selectedDays, setSelectedDays] = useState<string>("");
+  const [showFiltered, setShowFiltered] = useState(false);
 
   const navigate = useNavigate();
+
+  // Number of packages to display
+  const displayCount = {
+    desktop: 6,
+    mobile: 4
+  };
 
   useEffect(() => {
     import('../data/packages').then(module => {
       const allPackages = module.default || [];
+      
+      // Shuffle the packages for random display
+      const shuffledPackages = shuffleArray(allPackages);
       setPackages(allPackages);
-      setFilteredPackages(allPackages);
+      
+      // Set initial display packages - limited number for home page
+      const initialDisplayCount = window.innerWidth < 640 ? displayCount.mobile : displayCount.desktop;
+      setDisplayPackages(shuffledPackages.slice(0, initialDisplayCount));
+      setFilteredPackages(shuffledPackages);
 
       // Extract unique states
       const uniqueStates = Array.from(new Set(allPackages.map(pkg => pkg.state)));
@@ -105,7 +130,34 @@ const HomeServices = () => {
       console.error("Failed to load packages:", error);
       setLoading(false);
     });
+    // eslint-disable-next-line
   }, []);
+
+  // Handle window resize to adjust number of displayed cards
+  useEffect(() => {
+    const handleResize = () => {
+      if (!showFiltered && packages.length > 0) {
+        const count = window.innerWidth < 640 ? displayCount.mobile : displayCount.desktop;
+        // Maintain randomization when resizing
+        setDisplayPackages(prevPackages => {
+          // If we need to show more packages than currently displayed
+          if (count > prevPackages.length) {
+            const shuffled = shuffleArray(packages);
+            return shuffled.slice(0, count);
+          } 
+          // If we need to show fewer packages
+          else if (count < prevPackages.length) {
+            return prevPackages.slice(0, count);
+          }
+          return prevPackages;
+        });
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  // eslint-disable-next-line
+  }, [packages, showFiltered]);
 
   // Apply filters
   const applyFilters = () => {
@@ -126,6 +178,7 @@ const HomeServices = () => {
     }
 
     setFilteredPackages(filtered);
+    setShowFiltered(true);
   };
 
   // Reset filters
@@ -133,7 +186,16 @@ const HomeServices = () => {
     setSelectedState("");
     setSelectedDays("");
     setFilteredPackages(packages);
+    setShowFiltered(false);
+    
+    // Reset to random selection of packages for display
+    const count = window.innerWidth < 640 ? displayCount.mobile : displayCount.desktop;
+    const shuffled = shuffleArray(packages);
+    setDisplayPackages(shuffled.slice(0, count));
   };
+
+  // Get packages to display (either filtered or limited random selection)
+  const packagesToDisplay = showFiltered ? filteredPackages : displayPackages;
 
   return (
     <section className="py-16 bg-gray-50 z-1">
@@ -213,7 +275,7 @@ const HomeServices = () => {
           </div>
         ) : (
           <>
-            {filteredPackages.length === 0 ? (
+            {packagesToDisplay.length === 0 ? (
               <div className="text-center py-12">
                 <p className="text-lg text-gray-600">No packages found matching your criteria.</p>
                 <button
@@ -224,8 +286,8 @@ const HomeServices = () => {
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {filteredPackages.map((pkg) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {packagesToDisplay.map((pkg) => (
                   <PackageCard key={pkg.id} pkg={pkg} />
                 ))}
               </div>

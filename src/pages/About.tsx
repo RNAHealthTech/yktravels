@@ -1,5 +1,43 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet';
+
+const AboutPageSEOMeta: React.FC = () => {
+    const title = "Best Tours and Travels Agency in Delhi NCR";
+    const description = "Discover the story, mission, and values of YK Travels, the best tours and travels agency in Delhi NCR. Learn about our adventure offerings and commitment to sustainable travel.";
+    const keywords = "tours and travels agency, travel agency Delhi NCR, adventure tours, trekking, camping, river rafting, expeditions, sustainable travel, best travel agency";
+    const imageUrl = "/images/about-banner.jpg"; // Use a relevant image URL
+
+    // Construct the URL.
+    const pageUrl = "/about";
+
+    return (
+        <Helmet>
+            <title>{title}</title>
+            <meta name="description" content={description} />
+            <meta name="keywords" content={keywords} />
+
+            {/* Open Graph / Facebook */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content={pageUrl} />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={imageUrl} />
+
+            {/* Twitter */}
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content={pageUrl} />
+            <meta property="twitter:title" content={title} />
+            <meta property="twitter:description" content={description} />
+            <meta property="twitter:image" content={imageUrl} />
+
+            {/* Canonical URL */}
+            <link rel="canonical" href={pageUrl} />
+        </Helmet>
+    );
+};
+ 
+
 
 const AboutPage: React.FC = () => {
   // Animation variants
@@ -23,6 +61,8 @@ const AboutPage: React.FC = () => {
   };
 
   return (
+    <>
+    <AboutPageSEOMeta  />
     <div className="w-full overflow-x-hidden bg-white">
       {/* Hero Section */}
       <section className="relative w-full h-[60vh] md:h-[80vh]">
@@ -39,7 +79,7 @@ const AboutPage: React.FC = () => {
             transition={{ duration: 1 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">About YK Travels</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Best Tours and Travels Agency in Delhi NCR</h1>
             <p className="text-xl text-white max-w-2xl mx-auto">Your premier destination for thrilling outdoor experiences and unforgettable journeys</p>
           </motion.div>
         </div>
@@ -68,7 +108,7 @@ const AboutPage: React.FC = () => {
             <div className="w-full lg:w-1/2 h-64 md:h-96 bg-gray-100 rounded-lg overflow-hidden order-1 lg:order-2">
               <img 
                 src="/images/yktravels.avif" 
-                alt="best travel and tours agency in delhi ncr" 
+                alt="best tours and travel agency in delhi ncr" 
                 className="w-full h-full object-cover" 
               />
             </div>
@@ -154,7 +194,7 @@ const AboutPage: React.FC = () => {
               <div className="w-full lg:w-1/2 h-64 md:h-80 bg-gray-100 rounded-lg overflow-hidden">
                 <img 
                   src="/images/har-ki-doon.jpeg" 
-                  alt="Har ki doon trek" 
+                  alt="best tours and travel agency in delhi ncr" 
                   className="w-full h-full object-cover" 
                 />
               </div>
@@ -186,7 +226,7 @@ const AboutPage: React.FC = () => {
               <div className="w-full lg:w-1/2 h-64 md:h-80 bg-gray-100 rounded-lg overflow-hidden">
                 <img 
                   src="/images/river-rafting.jpg" 
-                  alt="River Rafting in Rishikesh" 
+                  alt="best tours and travel agency in delhi ncr" 
                   className="w-full h-full object-cover" 
                 />
               </div>
@@ -202,7 +242,7 @@ const AboutPage: React.FC = () => {
               <div className="w-full lg:w-1/2 h-64 md:h-80 bg-gray-100 rounded-lg overflow-hidden">
                 <img 
                   src="/images/expeditions.jpeg" 
-                  alt="Expeditions" 
+                  alt="best tours and travel agency in delhi ncr" 
                   className="w-full h-full object-cover" 
                 />
               </div>
@@ -321,16 +361,16 @@ const AboutPage: React.FC = () => {
             <div className="h-80 bg-gray-100 rounded-lg overflow-hidden">
               {/* Placeholder for adventure image */}
               <img 
-                src="/api/placeholder/800/600" 
-                alt="Adventure scene 1" 
+                src="/images/1.jpg" 
+                alt="best tours and travel agency in delhi ncr" 
                 className="w-full h-full object-cover" 
               />
             </div>
             <div className="h-80 bg-gray-100 rounded-lg overflow-hidden">
               {/* Placeholder for adventure image */}
               <img 
-                src="/api/placeholder/800/600" 
-                alt="Adventure scene 2" 
+                src="/images/2.jpg" 
+                alt="best tours and travel agency in delhi ncr" 
                 className="w-full h-full object-cover" 
               />
             </div>
@@ -341,31 +381,73 @@ const AboutPage: React.FC = () => {
             <div className="h-64 bg-gray-100 rounded-lg overflow-hidden">
               {/* Placeholder for adventure image */}
               <img 
-                src="/api/placeholder/600/400" 
-                alt="Adventure scene 3" 
+                src="/images/3.jpg" 
+                alt="best tours and travel agency in delhi ncr" 
                 className="w-full h-full object-cover" 
               />
             </div>
             <div className="h-64 bg-gray-100 rounded-lg overflow-hidden">
               {/* Placeholder for adventure image */}
               <img 
-                src="/api/placeholder/600/400" 
-                alt="Adventure scene 4" 
+                 src="/images/4.jpg"  
+                alt="best tours and travel agency in delhi ncr" 
                 className="w-full h-full object-cover" 
               />
             </div>
             <div className="h-64 bg-gray-100 rounded-lg overflow-hidden">
               {/* Placeholder for adventure image */}
               <img 
-                src="/api/placeholder/600/400" 
-                alt="Adventure scene 5" 
+                 src="/images/5.jpg" 
+                alt="best tours and travel agency in delhi ncr" 
                 className="w-full h-full object-cover" 
               />
             </div>
+            <div className="h-64 bg-gray-100 rounded-lg overflow-hidden">
+              {/* Placeholder for adventure image */}
+              <img 
+                src="/images/8.jpg" 
+                alt="best tours and travel agency in delhi ncr" 
+                className="w-full h-full object-cover" 
+              />
+            </div>
+            <div className="h-64 bg-gray-100 rounded-lg overflow-hidden">
+              {/* Placeholder for adventure image */}
+              <img 
+                 src="/images/7.jpg" 
+                alt="best tours and travel agency in delhi ncr" 
+                className="w-full h-full object-cover" 
+              />
+            </div>
+            <div className="h-64 bg-gray-100 rounded-lg overflow-hidden">
+              {/* Placeholder for adventure image */}
+              <img 
+                 src="/images/9.jpg" 
+                alt="best tours and travel agency in delhi ncr" 
+                className="w-full h-full object-cover" 
+              />
+            </div>
+            <div className="h-64 bg-gray-100 rounded-lg overflow-hidden">
+              {/* Placeholder for adventure image */}
+              <img 
+                 src="/images/10.jpg"  
+                alt="best tours and travel agency in delhi ncr" 
+                className="w-full h-full object-cover" 
+              />
+            </div>
+            <div className="h-64 bg-gray-100 rounded-lg overflow-hidden">
+              {/* Placeholder for adventure image */}
+              <img 
+                 src="/images/11.jpeg" 
+                alt="best tours and travel agency in delhi ncr" 
+                className="w-full h-full object-cover" 
+              />
+            </div>
+
           </div>
         </motion.section>
       </div>
     </div>
+    </>
   );
 };
 
