@@ -30,7 +30,7 @@ const HotDealsBanner: React.FC = () => {
     {
       id: 2,
       imageSrc: '/images/hot-2.png',
-      title: 'Beach Getaway',
+      title: 'Himalayan Gateway',
        
       discount: '30% OFF',
     },
@@ -254,7 +254,6 @@ const HotDealsBanner: React.FC = () => {
             
             <div className="p-3 sm:p-4 bg-white">
               <h3 className="text-lg sm:text-xl font-bold text-gray-800">{hotDeals[selectedImage].title}</h3>
-               
               <div className="mt-3 sm:mt-4 flex flex-col sm:flex-row sm:justify-between sm:items-center">
                 <div className="flex items-center mb-2 sm:mb-0">
                   <Flame className="text-orange-500 w-4 h-4 sm:w-5 sm:h-5 mr-1" />

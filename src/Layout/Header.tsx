@@ -74,6 +74,7 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
         },
       ],
     },
+    {name: "Book Hotels & Resorts", path: "/hotels-resorts-yk-travels"},
     { name: "Transportation Services", path: "/transportation" },
     {
       name: "Activities",

@@ -50,7 +50,7 @@ const HotelSection: React.FC = () => {
             Premium Accommodations
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We offer luxurious accommodations at 3-star, 5-star hotels and premium resorts, ensuring comfort and elegance for every traveler's preference.
+            We offer luxurious accommodations at 3 🌟,4 🌟 and 5 🌟 hotels and premium resorts, ensuring comfort and elegance for every traveler's preference.
           </p>
         </div>
 

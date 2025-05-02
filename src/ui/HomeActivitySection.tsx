@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import Activities from "../data/activities";
+import { useNavigate } from "react-router-dom";
 
 const HomeActivitySection = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [isMobile, setIsMobile] = useState(false);
+    const navigate = useNavigate();
 
     // Check if screen is mobile size
     useEffect(() => {
@@ -91,6 +93,7 @@ const HomeActivitySection = () => {
                             {visibleActivities.map((activity) => (
                                 <div
                                     key={activity.activitySlug}
+                                    onClick={()=>navigate(`/activity/${activity.activitySlug}`)}
                                     className="relative w-full md:w-72 h-96 rounded-lg overflow-hidden group cursor-pointer transition-all duration-300 hover:shadow-lg"
                                 >
                                     {/* Card Background Image */}
