@@ -173,7 +173,7 @@ const Footer: React.FC = () => {
                                 </a>
                             </div>
                             <div className="flex items-center">
-                                <Mail size={20} className="mr-2 flex-shrink-0" />
+                               
                                 <a href="https://yktravels.com/sitemap.xml" className="text-green-100 hover:text-white">
                                     sitemap
                                 </a>
@@ -196,7 +196,7 @@ const Footer: React.FC = () => {
                                 Refund Policy
                             </Link>
                             <p> Website by 
-                                <a href="https://rnahealthtech.com" className="text-green-100 hover:text-white text-sm">
+                                <a href="#" className="text-green-100 hover:text-white text-sm">
                                    {" "}Brand Growth Masters 
                                 </a>
                             </p>
