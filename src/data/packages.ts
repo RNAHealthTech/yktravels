@@ -2724,7 +2724,7 @@ YK Travels provides flexible transportation options based on the package selecti
   {
     id: 11,
     slug: "char-dham-yatra",
-    title: "Char Dham yatra",
+    title: "Char Dham Yatra",
     state: "Uttarakhand",
     shortDescription:
       "The Char Dham Yatra, organized by YK Travels, is a deeply spiritual journey to the four sacred shrines nestled in the majestic Garhwal Himalayas of Uttarakhand. This pilgrimage circuit, comprising Yamunotri, Gangotri, Kedarnath, and Badrinath, is one of the most revered in Hinduism. It offers not only a profound religious experience but also an opportunity to explore the stunning natural beauty and rich cultural heritage of the Himalayas. Each dham holds immense religious significance, and the journey to these sacred sites is considered a path to salvation and spiritual fulfillment.",

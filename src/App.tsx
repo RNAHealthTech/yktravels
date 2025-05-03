@@ -11,6 +11,7 @@ import Blogs from "./pages/Blogs";
 import PackagePage from "./ui/PackagePage";
 import PackageList from "./pages/Packages";
 import ActivityTemplate from "./pages/ActivityTemplate";
+import BookHotelPage from "./pages/BookHotelPage";
  
 
 export const useScrollToTop = () => {
@@ -30,6 +31,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/best-Tours-and-travels-agency-in-delhi-ncr" element={<AboutPage />} />
+       <Route path="/book-hotels-resorts-yk-travels" element={<BookHotelPage />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/packages" element={<PackageList />} />
         <Route path="/packages/:slug" element={<PackagePage />} />

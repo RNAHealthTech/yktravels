@@ -47,7 +47,29 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
             { name: "Mussoorie", path: "/packages/mussoorie-yk-travels" },
             { name: "Nainital", path: "/packages/nainital-yk-travels" },
             { name: "Haridwar", path: "/packages/haridwar-yk-travels" },
-           
+            {
+              name: "Water Sports Tehri Dam", path: "/packages/water-sports-tehri-dam"
+            },
+            {
+              name: "Nag Tibba Trek", path: "/packages/nag-tibba-trek"
+            },
+            {
+              name: "Ruinsara Tal Trek", path: "/packages/ruinsara-tal-trek"
+            },
+            {
+              name: "Har ki Dun Trek", path: "/packages/har-ki-doon"
+            },
+            {
+              name: "Ali Bedni Bugyal Trek", path: "/packages/ali-bedni-bugyal-trek"
+            },
+            { name: "Phulara Ridge Trek", path: "/packages/phulara-ridge-trek" },
+
+            { name: "Bali Pass Trek", path: "/packages/bali-pass-trek" },
+            { name: "Gaumukh Tapovan Trek", path: "/packages/gaumukh-tapovan-trek" }, 
+            {name: "Chopta Chandrashila Trek", path: "/packages/chopta-chandrashila-trek"}, 
+            {name: "Pangarchulla Trek", path:"/packages/pangarchulla-trek"},
+            {name: "Char Dham Yatra", path: "/packages/char-dham-yatra"},
+           {name: "Valley of Flowers", path: "/packages/valley-of-flowers"}
           ],
         },
         {
@@ -74,7 +96,7 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
         },
       ],
     },
-    {name: "Book Hotels & Resorts", path: "/hotels-resorts-yk-travels"},
+    { name: "Book Hotels & Resorts", path: "/book-hotels-resorts-yk-travels" },
     { name: "Transportation Services", path: "/transportation" },
     {
       name: "Activities",
@@ -172,9 +194,8 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
       initial="hidden"
       animate="visible"
       variants={headerVariants}
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white shadow-md" : "bg-transparent"
-      }`}
+      className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
@@ -206,9 +227,8 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
                         {link.name}
                       </motion.span>
                       <svg
-                        className={`ml-1 h-4 w-4 transform transition-transform ${
-                          activeDropdown === link.name ? "rotate-180" : ""
-                        }`}
+                        className={`ml-1 h-4 w-4 transform transition-transform ${activeDropdown === link.name ? "rotate-180" : ""
+                          }`}
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -246,11 +266,10 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
                                     >
                                       <span>{subItem.name}</span>
                                       <svg
-                                        className={`h-4 w-4 transform transition-transform ${
-                                          activeSubDropdown === subItem.name
+                                        className={`h-4 w-4 transform transition-transform ${activeSubDropdown === subItem.name
                                             ? "rotate-180"
                                             : ""
-                                        }`}
+                                          }`}
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -320,9 +339,8 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className={`p-2 rounded-md focus:outline-none ${
-                isScrolled ? "text-green-800" : "text-white"
-              }`}
+              className={`p-2 rounded-md focus:outline-none ${isScrolled ? "text-green-800" : "text-white"
+                }`}
             >
               <svg
                 className="h-6 w-6"
@@ -379,9 +397,8 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
                           {link.name}
                         </motion.span>
                         <svg
-                          className={`ml-2 h-5 w-5 transform transition-transform ${
-                            activeDropdown === link.name ? "rotate-180" : ""
-                          }`}
+                          className={`ml-2 h-5 w-5 transform transition-transform ${activeDropdown === link.name ? "rotate-180" : ""
+                            }`}
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -514,4 +531,3 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
 
 export default Header;
 
- 
