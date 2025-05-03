@@ -83,7 +83,7 @@ const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose, packageDat
     );
     
     // Replace with actual WhatsApp number
-    window.open(`https://wa.me/8766274009?text=${message}`, '_blank');
+    window.open(`https://wa.me/918766274009?text=${message}`, '_blank');
   };
 
   // Increment adult count

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useForm } from '@formspree/react';
 
 const ContactPage: React.FC = () => {
-  const [state, handleSubmit] = useForm('123xyz');
+  const [state, handleSubmit] = useForm('mdkgaaby');
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
@@ -71,7 +71,7 @@ const ContactPage: React.FC = () => {
                   </svg>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="mt-1">singhpankaj008@gmail.com</p>
+                    <p className="mt-1">yktravels1707@gmail.com</p>
                   </div>
                 </div>
                 

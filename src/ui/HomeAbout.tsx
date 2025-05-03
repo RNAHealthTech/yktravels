@@ -42,10 +42,7 @@ export default function HomeAbout() {
                   src="/images/homeabout.jpg" 
                   alt="A person standing on a mountain peak looking at a beautiful sunset" 
                   className="w-full h-auto"
-                  onError={(e) => {
-                    e.currentTarget.src = "/api/placeholder/600/400";
-                    e.currentTarget.alt = "Mountain view placeholder";
-                  }}
+                  
                 />
               </div>
             </div>

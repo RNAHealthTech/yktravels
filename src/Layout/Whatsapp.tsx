@@ -2,7 +2,7 @@
 const WhatsApp: React.FC = () => {
    
     const handleClick = () => {
-        const phoneNumber = '8766274009'; 
+        const phoneNumber = '918766274009'; 
 
         // Format the message for WhatsApp
         const message = `Hello Yk Travels`;

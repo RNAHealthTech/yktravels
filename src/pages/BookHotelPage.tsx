@@ -287,7 +287,7 @@ const BookHotelPage: React.FC = () => {
                                 <h3 className="text-xl font-semibold text-gray-700 mb-4">Need Immediate Assistance?</h3>
                                 <p className="text-gray-600 mb-4">Contact us directly on WhatsApp for quick booking assistance or custom requirements.</p>
                                 <a
-                                    href="https://wa.me/+919876543210?text=I'm%20interested%20in%20booking%20a%20hotel."
+                                    href="https://wa.me/918766274009?text=I'm%20interested%20in%20booking%20a%20hotel."
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-md transition-colors flex items-center justify-center"
