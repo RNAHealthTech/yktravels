@@ -63,13 +63,14 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
               name: "Ali Bedni Bugyal Trek", path: "/packages/ali-bedni-bugyal-trek"
             },
             { name: "Phulara Ridge Trek", path: "/packages/phulara-ridge-trek" },
-
+            { name: "Dayara Bugyal Trek  ", path: "/packages/dayara-bugyal-trek" },
+            { name: "Kauri Pass Trek", path: "/packages/kauri-pass-trek" },
             { name: "Bali Pass Trek", path: "/packages/bali-pass-trek" },
-            { name: "Gaumukh Tapovan Trek", path: "/packages/gaumukh-tapovan-trek" }, 
-            {name: "Chopta Chandrashila Trek", path: "/packages/chopta-chandrashila-trek"}, 
-            {name: "Pangarchulla Trek", path:"/packages/pangarchulla-trek"},
-            {name: "Char Dham Yatra", path: "/packages/char-dham-yatra"},
-           {name: "Valley of Flowers", path: "/packages/valley-of-flowers"}
+            { name: "Gaumukh Tapovan Trek", path: "/packages/gaumukh-tapovan-trek" },
+            { name: "Chopta Chandrashila Trek", path: "/packages/chopta-chandrashila-trek" },
+            { name: "Pangarchulla Trek", path: "/packages/pangarchulla-trek" },
+            { name: "Char Dham Yatra", path: "/packages/char-dham-yatra" },
+            { name: "Valley of Flowers", path: "/packages/valley-of-flowers" }
           ],
         },
         {
@@ -267,8 +268,8 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
                                       <span>{subItem.name}</span>
                                       <svg
                                         className={`h-4 w-4 transform transition-transform ${activeSubDropdown === subItem.name
-                                            ? "rotate-180"
-                                            : ""
+                                          ? "rotate-180"
+                                          : ""
                                           }`}
                                         fill="none"
                                         viewBox="0 0 24 24"

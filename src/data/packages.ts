@@ -271,7 +271,7 @@ const packages: Package[] = [
     shortDescription:
       "Embark on the Nag Tibba Trek with YK Travels, a perfect getaway for both novice and seasoned trekkers. Located in the Garhwal region of Uttarakhand, this trek offers stunning panoramic views of the Himalayas, lush forests, and serene landscapes. At 9,915 feet, Nag Tibba / Serpent's Peak, is the highest peak in the lower Himalayas of Uttarakhand.",
     duration: "2 Days & 1 Night",
-    price: 4000,
+    price: 5499,
     activityTags: ["camping", "trekking", "hiking", "peak climbing"],
     overview: {
       title: "Trek Overview",
@@ -506,7 +506,7 @@ const packages: Package[] = [
     shortDescription:
       "The Ruinsara Tal Trek is a breathtaking adventure through the heart of the Garhwal Himalayas in Uttarakhand, India. This trek offers an unparalleled blend of natural beauty, cultural encounters, and a glimpse into the pristine wilderness of the Himalayas. Ruinsara Tal, a high-altitude glacial lake, is the highlight of this trek, renowned for its serene beauty and the majestic peaks that surround it.",
     duration: "8 Days",
-    price: 12100,
+    price: 11499,
     activityTags: ["camping", "trekking", "hiking", "peak climbing"],
     overview: {
       title: "Trek Overview",
@@ -790,7 +790,7 @@ const packages: Package[] = [
     shortDescription:
       "The Har Ki Dun Trek, organized by YK Travels, is an enchanting adventure through the majestic Garhwal Himalayas of Uttarakhand. Known as the “Valley of Gods,” Har Ki Dun is a cradle-shaped hanging valley, surrounded by towering peaks, verdant forests, and sparkling rivers. This trek is ideal for nature lovers, adventure enthusiasts, and those seeking a deep connection with the Himalayas’ natural beauty and cultural heritage. The trek reaches a maximum altitude of 11,675 feet (3,556 meters) and offers a unique blend of stunning landscapes, cultural encounters, and historical significance.",
     duration: "7 Days",
-    price: 9999,
+    price: 10999,
     activityTags: ["camping", "trekking", "adventure", "star gazing"],
     overview: {
       title: "Trek Overview",
@@ -1066,7 +1066,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
     shortDescription:
       "The Ali Bedni Bugyal Trek is a captivating journey through the enchanting high-altitude meadows of the Garhwal Himalayas in Uttarakhand, India. This trek is renowned for its lush, sprawling bugyals (meadows), which offer spectacular panoramic views of some of the most majestic Himalayan peaks. Ideal for both novice and experienced trekkers, the Ali Bedni Bugyal Trek combines natural beauty with cultural richness, providing a memorable experience in the lap of nature.",
     duration: "6 Days",
-    price: 7700,
+    price: 7999,
     activityTags: ["camping", "trekking", "hiking", "peak climbing"],
     overview: {
       title: "Trek Overview",
@@ -1339,7 +1339,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
     shortDescription:
       "The Phulara Ridge Trek is an enchanting and relatively offbeat trekking route in the Garhwal region of Uttarakhand, India. This trek is renowned for its unique ridge walk, offering uninterrupted 360-degree panoramic views of the surrounding Himalayan peaks and valleys. It combines lush green meadows, dense forests, and stunning vistas, making it an excellent choice for trekkers seeking both adventure and tranquility.",
     duration: "6 Days",
-    price: 11000,
+    price: 10499,
     activityTags: ["camping", "trekking", "hiking", "peak climbing"],
     overview: {
       title: "Trek Overview",
@@ -1621,7 +1621,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
     shortDescription:
       "The Bali Pass Trek is a thrilling and adventurous high-altitude trek that takes you through the rugged beauty of the Garhwal Himalayas in Uttarakhand, India. This trek, known for its challenging terrain and breathtaking vistas, connects the picturesque Har Ki Dun Valley with the pristine Yamunotri Valley. With its combination of steep ascents, snow-capped peaks, and stunning alpine meadows, the Bali Pass Trek is perfect for experienced trekkers looking for an unforgettable adventure.",
     duration: "8 Days",
-    price: 24000,
+    price: 21999,
     activityTags: ["camping", "trekking", "hiking", "peak climbing"],
     overview: {
       title: "Trek Overview",
@@ -1903,7 +1903,7 @@ A free customized travel card worth Rs.500 will be delivered to your home after 
     shortDescription:
       "The Gaumukh Tapovan Trek, offered by YK Travels, is a captivating journey through the stunning landscapes of the Garhwal Himalayas. This trek takes you to the source of the holy Ganges River, known as Gaumukh, and further into the pristine meadows of Tapovan. Renowned for its spiritual significance and breathtaking scenery, the Gaumukh Tapovan Trek is a perfect blend of adventure, spirituality, and natural beauty.",
     duration: "3 Days",
-    price: 16500,
+    price: 15999,
     activityTags: ["camping", "trekking", "hiking", "peak climbing"],
     overview: {
       title: "Trek Overview",
@@ -2169,7 +2169,7 @@ A free customized travel card worth Rs.500 will be delivered to your home after 
     shortDescription:
       "The Chopta Chandrashila Trek, brought to you by YK Travels, is one of the most picturesque and exhilarating treks in the Garhwal Himalayas of Uttarakhand. This trek takes you through the enchanting landscapes of Chopta, often referred to as the “Mini Switzerland of India,” to the summit of Chandrashila, standing at an impressive 13,123 feet (4,000 meters). The trek also includes a visit to the sacred Tungnath Temple, the highest Shiva temple in the world, adding a spiritual dimension to this adventure.",
     duration: "3 Days",
-    price: 6600,
+    price: 5999,
     activityTags: [
       "camping",
       "trekking",
@@ -2451,7 +2451,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
     shortDescription:
       "The Pangarchulla Trek, curated by YK Travels, is an exhilarating adventure through the enchanting Garhwal Himalayas in Uttarakhand. Known for its challenging yet rewarding terrain, this trek takes you to the summit of Pangarchulla Peak, which stands at an impressive altitude of 15,069 feet (4,593 meters). The trek offers an incredible mix of dense forests, expansive meadows, and panoramic views of some of the most majestic Himalayan peaks, making it a perfect choice for seasoned trekkers and adventure enthusiasts.",
     duration: "6 Days",
-    price: 10999,
+    price: 9999,
     activityTags: ["camping", "trekking", "hiking", "peak climbing"],
     overview: {
       title: "Trek Overview",
@@ -3036,7 +3036,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
     shortDescription:
       "The Valley of Flowers Trek is a mesmerizing journey through one of India’s most stunning and botanically rich regions, nestled in the heart of the Garhwal Himalayas in Uttarakhand. This UNESCO World Heritage Site is renowned for its vast expanse of alpine flowers, diverse flora and fauna, and breathtaking landscapes. Offered by YK Travels, this trek is perfect for nature lovers, botanists, and adventure enthusiasts alike.",
     duration: "6 Days",
-    price: 9990,
+    price: 6499,
     activityTags: ["camping", "trekking", "adventure", "star gazing"],
     overview: {
       title: "Trek Overview",
@@ -6636,6 +6636,320 @@ For any additional questions or specific concerns, feel free to reach out to YK 
     mapUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26573.078884539244!2d75.30093537135053!3d34.01592966439354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1ffffffff0001%3A0x46c60fadd9ec1f3f!2sPahalgam%2C%20Jammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1651903529559!5m2!1sen!2sin",
   },
+
+    
+  {
+    id: 27,
+    slug: "kauri-pass-trek",
+    title: "Kauri Pass Trek",
+    shortDescription: "A breathtaking trek through the Garhwal Himalayas with panoramic views of Nanda Devi and other peaks.",
+    state: "Uttarakhand",
+    price: 8199,
+    duration: "6 Days / 5 Nights",
+    activityTags: ["Trekking", "Camping", "star-gazing"],
+    images: [
+      {
+        id: 1,
+        src: "/images/kauri-pass-trek-1.avif",
+        alt: "Kauri Pass Trek with snow-capped peaks"
+      },
+      {
+        id: 2,
+        src: "/images/kauri-pass-trek-2.webp",
+        alt: "Campsite at Kauri Pass"
+      }
+    ],
+    tripInfo: {
+      accommodation: {
+        text: "Tents & Guesthouses",
+        icon: "fa-bed"
+      },
+      arrivalCity: {
+        text: "Joshimath",
+        icon: "fa-map-marker"
+      },
+      bestSeason: {
+        text: "Sep-Nov, Apr-Jun",
+        icon: "fa-sun"
+      },
+      guide: {
+        text: "Experienced Trek Leader",
+        icon: "fa-user-guide"
+      },
+      maximumAltitude: {
+        text: "4265m (Kauri Pass)",
+        icon: "fa-mountain"
+      },
+      meals: {
+        text: "Veg Meals (Breakfast, Lunch, Dinner)",
+        icon: "fa-utensils"
+      },
+      transportation: {
+        text: "Shared Vehicle (Joshimath to Joshimath)",
+        icon: "fa-bus"
+      },
+      pickupPoint: {
+        text: "Joshimath Bus Stand",
+        icon: "fa-map-pin"
+      }
+    },
+    overview: {
+      title: "Kauri Pass Trek Overview",
+      description:
+        "The Kauri Pass Trek is a gem in the Garhwal Himalayas, offering stunning views of peaks like Nanda Devi, Trishul, and Dronagiri. This moderate trek takes you through lush meadows, dense forests, and high-altitude passes, culminating at the Kauri Pass at 4265m.",
+      highlights: [
+        { id: 1, highlight: "Panoramic views of Nanda Devi and other Himalayan peaks" },
+        { id: 2, highlight: "Camping in pristine alpine meadows" },
+        { id: 3, highlight: "Trekking through the Curzon Trail" }
+      ],
+      activities: [
+        {
+          title: "Trekking",
+          description: "Trek through diverse terrains including forests and meadows.",
+          emoji: "🥾"
+        },
+        {
+          title: "Camping",
+          description: "Spend nights under the stars in high-altitude campsites.",
+          emoji: "⛺"
+        }
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Joshimath",
+        description: "Reach Joshimath, meet the team, and prepare for the trek.",
+        activities: ["Briefing", "Gear Check"]
+      },
+      {
+        day: 2,
+        title: "Joshimath to Gulling Top",
+        description: "Drive to the trailhead and trek to Gulling Top campsite.",
+        activities: ["Drive", "Trekking"]
+      },
+      {
+        day: 3,
+        title: "Gulling Top to Tali",
+        description: "Trek through forests and meadows to Tali campsite.",
+        activities: ["Trekking", "Camping"]
+      },
+      {
+        day: 4,
+        title: "Tali to Kauri Pass",
+        description: "Ascend to Kauri Pass (4265m) and descend to the campsite.",
+        activities: ["Trekking", "Photography"]
+      },
+      {
+        day: 5,
+        title: "Kauri Pass to Auli",
+        description: "Trek down to Auli and drive back to Joshimath.",
+        activities: ["Trekking", "Drive"]
+      },
+      {
+        day: 6,
+        title: "Departure from Joshimath",
+        description: "Depart from Joshimath after breakfast.",
+        activities: ["Departure"]
+      }
+    ],
+    cost: {
+      includes: [
+        "Accommodation (tents, guesthouses)",
+        "All meals during the trek",
+        "Trekking permits and fees",
+        "Experienced trek leader and support staff",
+        "Transportation from Joshimath to Joshimath"
+      ],
+      excludes: [
+        "Travel to and from Joshimath",
+        "Personal expenses",
+        "Any additional meals outside the trek"
+      ],
+      notes: [
+        "GST included in the price",
+        "Carry personal trekking gear (backpack, shoes, etc.)"
+      ]
+    },
+    stays: [
+      {
+        id: 1,
+        images: [
+          {
+            id: 1,
+            src: "/images/kauri-pass-campsite.jpg",
+            alt: "Campsite at Tali"
+          }
+        ],
+        amenities: ["Tents", "Sleeping Bags", "Campfire"]
+      }
+    ],
+    faqs: [
+      {
+        question: "Is the Kauri Pass Trek suitable for beginners?",
+        answer:
+          "The trek is moderately challenging and suitable for fit beginners with some prior trekking experience."
+      },
+      {
+        question: "What is the best time to do this trek?",
+        answer: "The best time is September to November and April to June for clear views and pleasant weather."
+      }
+    ],
+    mapUrl: "https://maps.google.com/kauri-pass-trek"
+  },
+
+
+ 
+  {
+    id: 28,
+    slug: "dayara-bugyal-trek",
+    title: "Dayara Bugyal Trek",
+    shortDescription: "A scenic trek to one of the most beautiful alpine meadows in the Indian Himalayas.",
+    state: "Uttarakhand",
+    price: 5999,
+    duration: "4 Days / 3 Nights",
+    activityTags: ["trekking", "camping"],
+    images: [
+      {
+        id: 1,
+        src: "/images/dayara-bugyal-trek-1.jpg",
+        alt: "Dayara Bugyal meadow in summer"
+      },
+      {
+        id: 2,
+        src: "/images/dayara-bugyal-trek-2.jpg",
+        alt: "Snow-covered Dayara Bugyal"
+      }
+    ],
+    tripInfo: {
+      accommodation: {
+        text: "Tents & Homestays",
+        icon: "fa-bed"
+      },
+      arrivalCity: {
+        text: "Dehradun",
+        icon: "fa-map-marker"
+      },
+      bestSeason: {
+        text: "Year-round (Best: Apr-Jun, Sep-Nov)",
+        icon: "fa-sun"
+      },
+      guide: {
+        text: "Local Trek Leader",
+        icon: "fa-user-guide"
+      },
+      maximumAltitude: {
+        text: "3750m (Dayara Top)",
+        icon: "fa-mountain"
+      },
+      meals: {
+        text: "Veg Meals (Breakfast, Lunch, Dinner)",
+        icon: "fa-utensils"
+      },
+      transportation: {
+        text: "Shared Vehicle (Dehradun to Barsu)",
+        icon: "fa-bus"
+      },
+      pickupPoint: {
+        text: "Dehradun Railway Station",
+        icon: "fa-map-pin"
+      }
+    },
+    overview: {
+      title: "Dayara Bugyal Trek Overview",
+      description:
+        "The Dayara Bugyal Trek is perfect for beginners and nature lovers, offering stunning views of vast meadows and Himalayan peaks like Bandarpoonch and Black Peak. This easy-moderate trek is ideal for a short adventure.",
+      highlights: [
+        { id: 1, highlight: "Explore the expansive Dayara Bugyal meadow" },
+        { id: 2, highlight: "Views of Bandarpoonch and other peaks" },
+        { id: 3, highlight: "Camping in serene alpine settings" }
+      ],
+      activities: [
+        {
+          title: "Trekking",
+          description: "Trek through forests and open meadows.",
+          emoji: "🥾"
+        },
+        {
+          title: "Photography",
+          description: "Capture the beauty of Himalayan landscapes.",
+          emoji: "📸"
+        }
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: "Dehradun to Barsu",
+        description: "Drive from Dehradun to Barsu village, the trek starting point.",
+        activities: ["Drive", "Village Exploration"]
+      },
+      {
+        day: 2,
+        title: "Barsu to Barnala",
+        description: "Trek to Barnala campsite through forests and meadows.",
+        activities: ["Trekking", "Camping"]
+      },
+      {
+        day: 3,
+        title: "Barnala to Dayara Bugyal and Back",
+        description: "Trek to Dayara Top (3750m) and return to Barnala.",
+        activities: ["Trekking", "Photography"]
+      },
+      {
+        day: 4,
+        title: "Barnala to Barsu and Drive to Dehradun",
+        description: "Trek back to Barsu and drive to Dehradun.",
+        activities: ["Trekking", "Drive"]
+      }
+    ],
+    cost: {
+      includes: [
+        "Accommodation (tents, homestays)",
+        "All meals during the trek",
+        "Trekking permits",
+        "Local trek leader and support staff",
+        "Transportation from Dehradun to Barsu"
+      ],
+      excludes: [
+        "Travel to and from Dehradun",
+        "Personal expenses",
+        "Any additional meals outside the trek"
+      ],
+      notes: [
+        "GST included in the price",
+        "Basic trekking gear recommended"
+      ]
+    },
+    stays: [
+      {
+        id: 1,
+        images: [
+          {
+            id: 1,
+            src: "/images/dayara-bugyal-campsite.jpg",
+            alt: "Campsite at Barnala"
+          }
+        ],
+        amenities: ["Tents", "Sleeping Bags", "Basic Toilet Facilities"]
+      }
+    ],
+    faqs: [
+      {
+        question: "Is Dayara Bugyal Trek good for beginners?",
+        answer:
+          "Yes, it’s an easy-moderate trek, ideal for beginners with basic fitness."
+      },
+      {
+        question: "Can I do this trek in winter?",
+        answer:
+          "Yes, winter offers a beautiful snow-covered meadow, but proper gear is required."
+      }
+    ],
+    mapUrl: "https://maps.google.com/dayara-bugyal-trek"
+  }
+
 ];
 
 export default packages;
+
