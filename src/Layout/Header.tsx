@@ -42,14 +42,14 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
           name: "Uttarakhand",
           path: "/packages/uttarakhand",
           submenu: [
-            { name: "Jim Corbett", path: "/packages/jim-corbett-yk-travels" },
-            { name: "Rishikesh", path: "/packages/rishikesh-yk-travels" },
-            { name: "Mussoorie", path: "/packages/mussoorie-yk-travels" },
-            { name: "Nainital", path: "/packages/nainital-yk-travels" },
-            { name: "Haridwar", path: "/packages/haridwar-yk-travels" },
-            {
-              name: "Water Sports Tehri Dam", path: "/packages/water-sports-tehri-dam"
-            },
+            // { name: "Jim Corbett", path: "/packages/jim-corbett-yk-travels" },
+            // { name: "Rishikesh", path: "/packages/rishikesh-yk-travels" },
+            // { name: "Mussoorie", path: "/packages/mussoorie-yk-travels" },
+            // { name: "Nainital", path: "/packages/nainital-yk-travels" },
+            // { name: "Haridwar", path: "/packages/haridwar-yk-travels" },
+            // {
+            //   name: "Water Sports Tehri Dam", path: "/packages/water-sports-tehri-dam"
+            // },
             {
               name: "Nag Tibba Trek", path: "/packages/nag-tibba-trek"
             },
