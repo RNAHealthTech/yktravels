@@ -3894,7 +3894,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/haridwar/riverside-hotel.jpg",
+            src: "/images/hotel-1.jpeg",
             alt: "YK Travels Riverside Heritage Hotel in Haridwar",
           },
         ],
@@ -3918,7 +3918,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/haridwar/ashram-stay.jpg",
+            src: "/images/hotel-2.jpeg",
             alt: "YK Travels Ashram Accommodation in Haridwar",
           },
         ],
@@ -4125,7 +4125,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/corbett/jungle-resort.jpg",
+            src: "/images/resort-2.jpeg",
             alt: "YK Travels Luxury Jungle Resort in Corbett",
           },
         ],
@@ -4149,7 +4149,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/corbett/riverside-camp.jpg",
+            src: "/images/resort-2.jpeg",
             alt: "YK Travels Riverside Camping in Jim Corbett",
           },
         ],
@@ -4372,7 +4372,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/manali/mountain-resort.jpg",
+            src: "/images/resort-3.jpeg",
             alt: "YK Travels Luxury Mountain Resort in Manali",
           },
         ],
@@ -4396,7 +4396,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/manali/riverside-cottage.jpg",
+            src: "/images/hotel-1.jpeg",
             alt: "YK Travels Riverside Cottages in Manali",
           },
         ],
@@ -4622,7 +4622,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/shimla/heritage-hotel.jpg",
+            src: "/images/hotel-1.jpeg",
             alt: "YK Travels Colonial Heritage Hotel in Shimla",
           },
         ],
@@ -4646,7 +4646,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/shimla/forest-retreat.jpg",
+            src: "/images/resort-2.jpeg",
             alt: "YK Travels Pine Forest Retreat in Shimla",
           },
         ],
@@ -4866,7 +4866,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/dharamsala/monastery-stay.jpg",
+            src: "/images/hotel-2.jpeg",
             alt: "YK Travels Monastery-Inspired Accommodation in Dharamsala",
           },
         ],
@@ -4890,7 +4890,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/dharamsala/mountain-lodge.jpg",
+            src: "/images/resort-3.jpeg",
             alt: "YK Travels Mountain Lodge in McLeod Ganj",
           },
         ],
@@ -5101,12 +5101,12 @@ For any additional questions or specific concerns, feel free to reach out to YK 
     images: [
       {
         id: 1,
-        src: "https://images.unsplash.com/photo-1643042725188-42df82135f1b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        src: "/images/packages/hp/hp-2.avif",
         alt: "YK Travels Kasol Riverside Experience",
       },
       {
         id: 2,
-        src: "/images/packages/hp/hp-2.avif",
+        src: "/images/packages/hp/hp-5.avif",
         alt: "YK Travels Parvati Valley Adventure",
       },
     ],
@@ -5116,7 +5116,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/kasol/riverside-camp.jpg",
+            src: "/images/tent2.jpg",
             alt: "YK Travels Luxury Riverside Camp in Kasol",
           },
         ],
@@ -5140,7 +5140,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/kasol/mountain-lodge.jpg",
+            src: "/images/tent3.jpg",
             alt: "YK Travels Traditional Himalayan Lodge in Kasol",
           },
         ],
@@ -5362,7 +5362,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/srinagar/luxury-houseboat.jpg",
+            src: "/images/hotel-1.jpeg",
             alt: "YK Travels Premium Houseboat on Dal Lake",
           },
         ],
@@ -5386,7 +5386,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/srinagar/heritage-hotel.jpg",
+            src: "/images/resort-4.jpeg",
             alt: "YK Travels Heritage Hotel in Srinagar",
           },
         ],
@@ -5582,7 +5582,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1746093551092!5m2!1sen!2sin",
   },
   {
-    id: 22,
+    id: 23,
     slug: "gulmarg-yk-travels",
     title: "Gulmarg with YK Travels",
     shortDescription:
@@ -5618,7 +5618,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/gulmarg/alpine-resort.jpg",
+            src: "/images/resort-2.jpeg",
             alt: "YK Travels Luxury Alpine Resort in Gulmarg",
           },
         ],
@@ -5642,7 +5642,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/packages/gulmarg/snow-cabins.jpg",
+            src: "/images/packages/jammu-kashmir/jk-10.jpg",
             alt: "YK Travels Alpine Snow Cabins in Gulmarg",
           },
         ],
@@ -5831,7 +5831,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13223.492037133402!2d74.36961842532744!3d34.05005043113701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1af82031d3237%3A0x93a7d373919beebd!2sGulmarg%2C%20Jammu%20and%20Kashmir%20193403!5e0!3m2!1sen!2sin!4v1652457930872!5m2!1sen!2sin",
   },
   {
-    id: 23,
+    id: 24,
     slug: "pahalgam-yk-travels",
     title: "Pahalgam Trip with YK Travels",
     shortDescription:
@@ -6024,7 +6024,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26573.078884539244!2d75.30093537135053!3d34.01592966439354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1ffffffff0001%3A0x46c60fadd9ec1f3f!2sPahalgam%2C%20Jammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1651903529559!5m2!1sen!2sin",
   },
   {
-    id: 24,
+    id: 25,
     slug: "sonmarg-yk-travels",
     title: "Sonmarg Adventure with YK Travels",
     shortDescription:
@@ -6214,7 +6214,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.594067053674!2d75.27971631515198!3d34.30349698053648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1b7f1c7e5a9b7%3A0x5f8b8e5e5f5f5f5f!2sSonmarg%2C%20Jammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1667901234567!5m2!1sen!2sin",
   },
   {
-    id: 25,
+    id: 26,
     slug: "leh-ladakh-yk-travels",
     title: "Enchanting Ladakh Expedition with YK Travels",
     shortDescription:
@@ -6419,7 +6419,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26573.078884539244!2d75.30093537135053!3d34.01592966439354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1ffffffff0001%3A0x46c60fadd9ec1f3f!2sPahalgam%2C%20Jammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1651903529559!5m2!1sen!2sin",
   },
   {
-    id: 26,
+    id: 27,
     slug: "jammu-kashmir-yk-travels",
     title: "Discover the Wonders of Jammu & Kashmir with YK Travels",
     shortDescription:
@@ -6637,9 +6637,9 @@ For any additional questions or specific concerns, feel free to reach out to YK 
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26573.078884539244!2d75.30093537135053!3d34.01592966439354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1ffffffff0001%3A0x46c60fadd9ec1f3f!2sPahalgam%2C%20Jammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1651903529559!5m2!1sen!2sin",
   },
 
-    
+
   {
-    id: 27,
+    id: 28,
     slug: "kauri-pass-trek",
     title: "Kauri Pass Trek",
     shortDescription: "A breathtaking trek through the Garhwal Himalayas with panoramic views of Nanda Devi and other peaks.",
@@ -6777,7 +6777,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/kauri-pass-campsite.jpg",
+            src: "/images/tent1.jpg",
             alt: "Campsite at Tali"
           }
         ],
@@ -6799,9 +6799,9 @@ For any additional questions or specific concerns, feel free to reach out to YK 
   },
 
 
- 
+
   {
-    id: 28,
+    id: 29,
     slug: "dayara-bugyal-trek",
     title: "Dayara Bugyal Trek",
     shortDescription: "A scenic trek to one of the most beautiful alpine meadows in the Indian Himalayas.",
@@ -6927,7 +6927,7 @@ For any additional questions or specific concerns, feel free to reach out to YK 
         images: [
           {
             id: 1,
-            src: "/images/dayara-bugyal-campsite.jpg",
+            src: "/images/tent2.jpg",
             alt: "Campsite at Barnala"
           }
         ],
@@ -6947,9 +6947,689 @@ For any additional questions or specific concerns, feel free to reach out to YK 
       }
     ],
     mapUrl: "https://maps.google.com/dayara-bugyal-trek"
-  }
+  },
+  {
+    id: 30,
+    slug: "brahmatal-trek",
+    title: "Brahmatal Trek",
+    state: "Uttarakhand",
+    shortDescription: "A scenic high-altitude winter trek in Chamoli, known for frozen alpine lakes and panoramic 360° Himalayan views.",
+    price: 9500,
+    duration: "5–6 Days",
+    activityTags: ["trekking", "camping", "winter-trek", "beginners"],
+    images: [
+      { id: 1, src: "/images/packages/brahmatal/brahmatal-1.png", alt: "Brahmatal lake in winter" },
+      { id: 2, src: "/images/packages/brahmatal/brahmatal-2.png", alt: "Snow covered trail to Brahmatal" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Tents & Homestays (Lohajung)", icon: "fa-bed" },
+      arrivalCity: { text: "Lohajung", icon: "fa-map-marker-alt" },
+      bestSeason: { text: "Winter (Dec–Mar); Post-monsoon (Sept–Nov)", icon: "fa-snowflake" },
+      guide: { text: "Professional Trek Leader & Staff", icon: "fa-user-tie" },
+      maximumAltitude: { text: "12,250 ft", icon: "fa-mountain" },
+      meals: { text: "Veg Meals (Breakfast, Lunch, Dinner)", icon: "fa-utensils" },
+      transportation: { text: "Drive from Rishikesh/Haridwar", icon: "fa-bus" },
+      pickupPoint: { text: "Rishikesh/Haridwar", icon: "fa-map-pin" }
+    },
+    overview: {
+      title: "Brahmatal Trek Overview",
+      description: "The Brahmatal Trek is a scenic high-altitude trek in the Chamoli district of Uttarakhand. Known for its snow-covered trails, frozen alpine lakes (Brahmatal & Bekaltal), and panoramic mountain views, it is a perfect winter trek for beginners. The route offers 360° views of Himalayan giants like Trishul & Nanda Ghunti.",
+      highlights: [
+        { id: 1, highlight: "Frozen Bekaltal and Brahmatal Lakes" },
+        { id: 2, highlight: "Spectacular views of Mt. Trishul and Nanda Ghunti" },
+        { id: 3, highlight: "Trails through dense oak and rhododendron forests" },
+        { id: 4, highlight: "360° Himalayan views from Brahmatal Summit/Ridge" }
+      ],
+      activities: [
+        { title: "Snow Trekking", description: "Experience trekking in deep winter snow.", emoji: "❄️" },
+        { title: "Photography", description: "Capture stunning 360° Himalayan vistas.", emoji: "📸" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Rishikesh to Lohajung", description: "Early morning drive (approx. 9–11 hrs) to Lohajung (base camp). Overnight stay in guesthouse/homestay.", activities: ["Scenic Drive", "Briefing"] },
+      { day: 2, title: "Lohajung to Bekaltal Lake", description: "Trek through oak and rhododendron forests on gentle slopes (~5–6 km, 4–5 hrs). Camp by the lake.", activities: ["Forest Trek", "Lakeside Camping"] },
+      { day: 3, title: "Bekaltal to Brahmatal Campsite", description: "Gradual ascent through meadows and snow fields (~7 km). Camp near the sacred Brahmatal Lake.", activities: ["Meadow Walk", "Alpine Camping"] },
+      { day: 4, title: "Brahmatal Summit Day", description: "Summit push to catch spectacular views of Trishul & Nanda Ghunti. Descent to campsite/lower camp.", activities: ["Summit Push", "Peak Views"] },
+      { day: 5, title: "Lohajung and Return", description: "Trek back down to Lohajung village and drive back to Rishikesh or onwards home.", activities: ["Descent", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Trekking guide & staff", "Forest entry/trek permits", "Accommodation (tents/guesthouse)", "Meals during trek", "Camping gear (sleeping bags, tents)", "Basic safety & first-aid kit"],
+      excludes: ["Personal insurance", "Transport to/from base village", "Porter/mule charges for luggage", "Gear rentals (jackets, poles)"],
+      notes: ["Government ID (Aadhaar/Passport) required for permits.", "Budget packages start from ~₹7,000."]
+    },
+    faqs: [
+      { question: "What’s the best time for snow views?", answer: "December to March offers snow-covered trails and frozen lakes." },
+      { question: "Is it suitable for first-timers?", answer: "Yes, it is an easy to moderate trek suitable for beginners with basic fitness." },
+      { question: "Do I need permits?", answer: "Yes, forest permits are required and usually managed by trek operators." },
+      { question: "Is there mobile connectivity?", answer: "Limited; often available only near villages or certain ridges." }
+    ],
+    mapUrl: "https://maps.google.com/brahmatal-trek"
+  },
+
+  {
+    id: 31,
+    slug: "kedarkantha-trek",
+    title: "Kedarkantha Trek",
+    state: "Uttarakhand",
+    shortDescription: "A classic winter summit trek in Uttarkashi, famous for its 360° mountain views and beautiful Juda Ka Talab lake.",
+    price: 8500,
+    duration: "4–6 Days",
+    activityTags: ["trekking", "camping", "winter-trek", "beginners"],
+    images: [
+      { id: 1, src: "/images/packages/kedarkantha/kedarkantha-1.png", alt: "Kedarkantha summit view" },
+      { id: 2, src: "/images/packages/kedarkantha/kedarkantha-2.png", alt: "Juda Ka Talab campsite" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Guesthouse & Alpine Tents", icon: "fa-campground" },
+      arrivalCity: { text: "Sankri", icon: "fa-home" },
+      bestSeason: { text: "Winter (Dec–Apr); Summer (May–June)", icon: "fa-calendar-alt" },
+      guide: { text: "Professional Trek Guide", icon: "fa-walking" },
+      maximumAltitude: { text: "12,500 ft", icon: "fa-mountain" },
+      meals: { text: "Healthy Veg Meals during trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Dehradun to Sankri", icon: "fa-bus" },
+      pickupPoint: { text: "Dehradun", icon: "fa-map-pin" }
+    },
+    overview: {
+      title: "Kedarkantha Trek Overview",
+      description: "Located in Govind Wildlife Sanctuary, Kedarkantha is one of India's most popular Himalayan treks. Famous for its clearly defined summit, it gives trekkers a true sense of achievement even on their first high-altitude trek, featuring snow-covered forests and traditional villages.",
+      highlights: [
+        { id: 1, highlight: "Summit climb with 360° Himalayan views" },
+        { id: 2, highlight: "Camping near the frozen Juda Ka Talab (winter)" },
+        { id: 3, highlight: "Dense pine and oak forests across the trail" },
+        { id: 4, highlight: "Views of Swargarohini, Bandarpoonch & Black Peak" }
+      ],
+      activities: [
+        { title: "Summit Ascent", description: "A thrilling climb to catch the sunrise at 12,500 ft.", emoji: "⛰️" },
+        { title: "Winter Camping", description: "Experience sub-zero camping in snow fields.", emoji: "⛺" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Dehradun to Sankri", description: "8–10 hour drive through Mussoorie and along the Tons River.", activities: ["Scenic Drive", "Guesthouse Stay"] },
+      { day: 2, title: "Sankri to Juda Ka Talab", description: "Trek 4 km through beautiful pine forests to the iconic lake altitude of 9,100 ft.", activities: ["Forest Hike", "Lakeside Camp"] },
+      { day: 3, title: "Juda Ka Talab to Kedarkantha Base Camp", description: "Ascend to open meadows below the summit (4 km, 3-4 hrs).", activities: ["Meadow Trek", "Acclimatization"] },
+      { day: 4, title: "Summit Day & Return", description: "Early morning summit push to 12,500 ft followed by descent to lower campsites.", activities: ["Summit Achievement", "Descend"] },
+      { day: 5, title: "Return to Sankri → Dehradun", description: "Final descent to back to Sankri and drive back to Dehradun railway station.", activities: ["Drive", "Wrap up"] }
+    ],
+    cost: {
+      includes: ["Professional trek guide", "Forest permits & entry fees", "Accommodation (guesthouse + tents)", "All meals during trek", "Camping equipment (bags, tents, mats)", "Basic safety support"],
+      excludes: ["Travel to/from Dehradun", "Personal trekking gear", "Backpack offloading/porter charges", "Travel insurance", "Personal expenses"],
+      notes: ["Snow trekking from December to April."]
+    },
+    faqs: [
+      { question: "Is Kedarkantha good for beginners?", answer: "Yes, it is one of the best beginner treks in India, especially in winter." },
+      { question: "Does it have snow?", answer: "Yes, from December to April, the trek is mostly snow-covered." },
+      { question: "Is altitude sickness common?", answer: "Rare, but hydration and slow ascent are always recommended." },
+      { question: "Is mobile network available?", answer: "Limited connectivity in Sankri only; no signal during the trek." }
+    ],
+    mapUrl: "https://maps.google.com/kedarkantha-trek"
+  },
+
+  {
+    id: 32,
+    slug: "pindari-glacier-trek",
+    title: "Pindari Glacier Trek",
+    state: "Uttarakhand",
+    shortDescription: "A legendary glacier trek in Kumaon, offering a gentle approach to the snout of the Pindari Glacier at Zero Point.",
+    price: 11000,
+    duration: "7 Days",
+    activityTags: ["trekking", "glacier-expedition"],
+    images: [
+      { id: 1, src: "/images/packages/pindari/pindari-1.png", alt: "Pindari glacier snout" },
+      { id: 2, src: "/images/packages/uk/uk-1.avif", alt: "Nanda Khat view" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Guesthouses & Lodges (Villages)", icon: "fa-home" },
+      arrivalCity: { text: "Kharkiya", icon: "fa-road" },
+      bestSeason: { text: "Spring (Apr–June); Autumn (Sept–Nov)", icon: "fa-leaf" },
+      guide: { text: "Trek Guide & Local Support", icon: "fa-user" },
+      maximumAltitude: { text: "12,300 ft", icon: "fa-mountain" },
+      meals: { text: "All Meals during the trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Kathgodam to Kharkiya", icon: "fa-taxi" },
+      pickupPoint: { text: "Kathgodam", icon: "fa-train" }
+    },
+    overview: {
+      title: "Pindari Glacier Trek Overview",
+      description: "Located in the Kumaon region inside the Nanda Devi Biosphere Reserve, Pindari Glacier is one of India's most accessible glacier treks. It offers a gradual trail through traditional villages.",
+      highlights: [
+        { id: 1, highlight: "SNout of Pindari Glacier at Zero Point" },
+        { id: 2, highlight: "Views of Nanda Devi East, Nanda Khat & Changuch" },
+        { id: 3, highlight: "Traditional Kumaoni village experience" }
+      ],
+      activities: [
+        { title: "Glacier Exploration", description: "Reach the snout of the Pindari Glacier.", emoji: "🧊" },
+        { title: "Riverside Trekking", description: "Walk along the beautiful Pindar River.", emoji: "🌊" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Kathgodam to Kharkiya", description: "Long 9–10 hour drive into the Kumaon Himalayas.", activities: ["Scenic Drive", "Briefing"] },
+      { day: 2, title: "Kharkiya to Dhakuri", description: "Gradual climb through forests to Dhakuri (5 km).", activities: ["Forest Trek", "Lodge Stay"] },
+      { day: 3, title: "Dhakuri to Khati", description: "Descend into Pindar Valley to Khati, the largest village.", activities: ["Village Walk", "Lodge Stay"] },
+      { day: 4, title: "Khati to Dwali", description: "Trek along the Pindar River through dense forests (11 km).", activities: ["Riverside Trek", "Lodge Stay"] },
+      { day: 5, title: "Dwali to Phurkia", description: "Trail enters alpine zones with close peak views (5 km).", activities: ["Alpine Ascent", "Lodge Stay"] },
+      { day: 6, title: "Zero Point & Return", description: "Explore the glacier snout and return to lower camps.", activities: ["Glacier Snout", "Zero Point"] },
+      { day: 7, title: "Return to Kathgodam", description: "Trek back to Kharkiya and drive back to Kathgodam.", activities: ["Descent", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Trek guide & support staff", "Forest & biosphere permits", "Guesthouse/lodge accommodation", "All meals during trek"],
+      excludes: ["Travel to/from Kathgodam", "Personal trekking gear", "Porter/mule services", "Personal expenses"],
+      notes: ["Entry permits for Nanda Devi Biosphere Reserve are mandatory."]
+    },
+    faqs: [
+      { question: "Is Pindari Glacier suitable for beginners?", answer: "Yes, it is one of the most beginner-friendly glacier treks in India." },
+      { question: "Is camping required?", answer: "No, most nights are spent in villages or lodges." }
+    ],
+    mapUrl: "https://maps.google.com/pindari-glacier-trek"
+  },
+  {
+    id: 33,
+    slug: "roopkund-trek",
+    title: "Roopkund Trek",
+    state: "Uttarakhand",
+    shortDescription: "The mysterious 'Skeleton Lake' trek, a high-altitude adventure through huge alpine meadows to 16,500 ft.",
+    price: 16500,
+    duration: "8 Days",
+    activityTags: ["trekking", "high-altitude", "adventure"],
+    images: [
+      { id: 1, src: "/images/packages/roopkund/roopkund-1.png", alt: "Roopkund skeletal lake" },
+      { id: 2, src: "/images/packages/uk/uk-2.avif", alt: "Ali Bugyal meadows" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Guesthouses & Tents", icon: "fa-campground" },
+      arrivalCity: { text: "Lohajung", icon: "fa-mountain" },
+      bestSeason: { text: "Summer (May–June); Autumn (Sept–Oct)", icon: "fa-sun" },
+      guide: { text: "Certified High Altitude Guide", icon: "fa-user-check" },
+      maximumAltitude: { text: "16,500 ft", icon: "fa-mountain" },
+      meals: { text: "Nutritious All Meals during trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Rishikesh/Kathgodam", icon: "fa-car" },
+      pickupPoint: { text: "Rishikesh/Kathgodam", icon: "fa-map-signs" }
+    },
+    overview: {
+      title: "Roopkund Trek Overview",
+      description: "Roopkund is a legendary high-altitude trek famous for the ancient human skeletons at the lake edges. It features the massive alpine meadows of Ali and Bedni Bugyal.",
+      highlights: [
+        { id: 1, highlight: "Mysterious Roopkund Lake (Skeleton Lake)" },
+        { id: 2, highlight: "Expansive Ali Bugyal & Bedni Bugyal meadows" },
+        { id: 3, highlight: "Views of Trishul and Nanda Ghunti" }
+      ],
+      activities: [
+        { title: "Meadow Crossing", description: "Walk through Asia's largest alpine meadows.", emoji: "🌱" },
+        { title: "Altitude Peak", description: "Reach a high point of 16,500 ft.", emoji: "🏔️" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Arrival at Lohajung", description: "9–10 hour drive to the base village at 7,600 ft.", activities: ["Drive", "Briefing"] },
+      { day: 2, title: "Lohajung to Didna Village", description: "Descent and climb through forests to Didna (6 km).", activities: ["Forest Trek", "Homestay"] },
+      { day: 3, title: "Didna to Ali Bugyal", description: "Steep climb to the massive Ali Bugyal meadows (7 km).", activities: ["Steep Climb", "Meadow Views"] },
+      { day: 4, title: "Ali to Bedni Bugyal", description: "A ridge walk with panoramic mountain views (5 km).", activities: ["Ridge Walk", "Camping"] },
+      { day: 5, title: "Bedni to Patar Nachauni", description: "Gradual ascent toward the high-altitude zone (5 km).", activities: ["Trek", "Camping"] },
+      { day: 6, title: "Patar Nachauni to Bhagwabasa", description: "Climb to the high camp at Bhagwabasa (4 km).", activities: ["Altitude Gain", "High Camp"] },
+      { day: 7, title: "Roopkund Lake & Return", description: "Summit push to the lake and return to lower camps.", activities: ["Summit Challenge", "Skeleton Lake"] },
+      { day: 8, title: "Descend to Lohajung", description: "Final descent to back to the base village.", activities: ["Descent", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Certified trek leaders & guides", "Forest permits & camping fees", "Acclimatization support", "All meals during trek", "Camping gear"],
+      excludes: ["Travel to base", "Personal gear", "Backpack offloading", "Porter charges"],
+      notes: ["Moderate to Difficult grade; high-altitude fitness required."]
+    },
+    faqs: [
+      { question: "Is Roopkund suitable for beginners?", answer: "Not ideal for absolute beginners; prior high-altitude experience preferred." },
+      { question: "Why is it called Skeleton Lake?", answer: "Ancient skeletons dating back to the 9th century were found here." }
+    ],
+    mapUrl: "https://maps.google.com/roopkund-trek"
+  },
+  {
+    id: 34,
+    slug: "beas-kund-trek",
+    title: "Beas Kund Trek",
+    state: "Himachal Pradesh",
+    shortDescription: "A short yet rewarding high-altitude trek near Manali leading to the glacial lake source of the Beas River.",
+    price: 6000,
+    duration: "2-4 days",
+    activityTags: ["trekking", "camping", "glacial-lake", "beginners"],
+    images: [
+      { id: 1, src: "/images/packages/hp/hp-5.avif", alt: "Beas Kund glacial lake" },
+      { id: 2, src: "/images/packages/hp/hp-6.avif", alt: "Manali Himalayan views" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Camping Accommodation", icon: "fa-campground" },
+      arrivalCity: { text: "Manali", icon: "fa-mountain" },
+      bestSeason: { text: "Summer & Early Autumn (May–Oct)", icon: "fa-sun" },
+      guide: { text: "Trek Guide & Support Staff", icon: "fa-user-check" },
+      maximumAltitude: { text: "12,300 ft", icon: "fa-mountain" },
+      meals: { text: "Nutritious Meals during the trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Manali to Solang/Dhundi", icon: "fa-car" },
+      pickupPoint: { text: "Manali", icon: "fa-map-marker-alt" }
+    },
+    overview: {
+      title: "Beas Kund Trek Overview",
+      description: "The Beas Kund Trek is a short yet rewarding high-altitude trek near Manali. It leads to Beas Kund, a glacial lake considered the source of the Beas River. Surrounded by towering Himalayan peaks, the trek offers dramatic views within a relatively short duration, making it ideal for beginners.",
+      highlights: [
+        { id: 1, highlight: "Origin point of the Beas River" },
+        { id: 2, highlight: "Close views of Shitidhar, Friendship Peak & Hanuman Tibba" },
+        { id: 3, highlight: "Alpine meadows and glacial streams" },
+        { id: 4, highlight: "Ideal acclimatization trek for beginners" }
+      ],
+      activities: [
+        { title: "Photography", description: "Capture dramatic mountain views.", emoji: "📸" },
+        { title: "Camping", description: "Experience high-altitude camping.", emoji: "⛺" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Manali to Solang Valley/Dhundi → Campsite", description: "Drive 30-45 mins to Solang/Dhundi and trek 4-5 km through gentle meadows to the campsite.", activities: ["Scenic Drive", "Gentle Trek"] },
+      { day: 2, title: "Campsite to Beas Kund & Return", description: "Trek 6-8 km (round trip) to reach the glacial lake at 12,300 ft. Explore the area and return to camp.", activities: ["Lake Exploration", "Photography"] },
+      { day: 3, title: "Trek Back to Solang Valley → Manali", description: "Descend to the roadhead and drive back to Manali village.", activities: ["Descent", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Trek guide & support staff", "Camping accommodation", "Meals during the trek", "Camping equipment (tents, sleeping bags)", "Basic first-aid & safety support"],
+      excludes: ["Travel to/from Manali", "Personal trekking gear", "Porter services", "Travel insurance", "Personal expenses"],
+      notes: ["Budget packages available starting from ₹4,500."]
+    },
+    faqs: [
+      { question: "Is Beas Kund Trek good for beginners?", answer: "Yes, it is one of the best beginner-friendly treks in Himachal Pradesh." },
+      { question: "How high is Beas Kund?", answer: "Approximately 12,300 ft, making it safe with proper pacing." },
+      { question: "Is snow available on the trek?", answer: "Snow patches are common in early summer (May–June)." },
+      { question: "Is camping mandatory?", answer: "Yes, overnight camping is required on most itineraries." }
+    ],
+    mapUrl: "https://maps.google.com/beas-kund"
+  },
+
+  {
+    id: 35,
+    slug: "bhrigu-lake-trek",
+    title: "Bhrigu Lake Trek",
+    state: "Himachal Pradesh",
+    shortDescription: "A short high-altitude trek near Manali famous for vast alpine meadows and a sacred glacial lake.",
+    price: 6500,
+    duration: "2-4 days",
+    activityTags: ["trekking", "camping", "alpine-lake", "beginners"],
+    images: [
+      { id: 1, src: "/images/packages/hp/hp-4.avif", alt: "Bhrigu Lake view" },
+      { id: 2, src: "/images/packages/hp/hp-2.avif", alt: "Vibrant alpine meadows" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Camping Accommodation", icon: "fa-campground" },
+      arrivalCity: { text: "Manali", icon: "fa-home" },
+      bestSeason: { text: "Summer & Autumn (May–Oct)", icon: "fa-calendar-alt" },
+      guide: { text: "Trek Guide & Support Staff", icon: "fa-walking" },
+      maximumAltitude: { text: "14,100 ft", icon: "fa-mountain" },
+      meals: { text: "Nutritious Meals during the trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Manali to Gulaba", icon: "fa-bus-alt" },
+      pickupPoint: { text: "Manali", icon: "fa-map-marker-alt" }
+    },
+    overview: {
+      title: "Bhrigu Lake Trek Overview",
+      description: "Bhrigu Lake is famous for its vast alpine meadows and a beautiful glacial lake at 14,100 ft. It is ideal for beginners looking for a true high-altitude experience in a short time, offering panoramic views of Hanuman Tibba and Friendship Peak.",
+      highlights: [
+        { id: 1, highlight: "Expansive grasslands and alpine meadows" },
+        { id: 2, highlight: "Quick access to high altitude tree line" },
+        { id: 3, highlight: "Scenic Bhrigu Lake surrounded by snow patches" },
+        { id: 4, highlight: "Views of Hanuman Tibba & Seven Sisters" }
+      ],
+      activities: [
+        { title: "Meadow Walk", description: "Traverse high altitude alpine meadows.", emoji: "🌱" },
+        { title: "Lake Visit", description: "Visit the sacred Bhrigu Lake.", emoji: "🌊" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Manali to Gulaba → Campsite", description: "Drive 1 hour to Gulaba and trek 5-6 km through meadows to the campsite.", activities: ["Scenic Drive", "Meadow Trek"] },
+      { day: 2, title: "Campsite to Bhrigu Lake & Return", description: "Trek to the lake at 14,100 ft and explore the sacred area before returning to camp.", activities: ["Peak views", "Glacial Lake Visit"] },
+      { day: 3, title: "Trek Back to Gulaba → Manali", description: "Descend to Gulaba roadhead and drive back to Manali.", activities: ["Descent", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Trek guide and support staff", "Camping accommodation", "Meals during the trek", "Camping equipment (tents, mats, bags)", "Basic first-aid & safety support"],
+      excludes: ["Travel to/from Manali", "Personal trekking gear", "Porter/mule services", "Travel insurance", "Personal expenses"],
+      notes: ["Acclimatization is important due to the quick altitude gain."]
+    },
+    faqs: [
+      { question: "Is Bhrigu Lake Trek good for beginners?", answer: "Yes, it is beginner-friendly, but the rapid altitude gain requires proper pacing." },
+      { question: "How high is Bhrigu Lake?", answer: "Approximately 14,100 ft, higher than many beginner treks." },
+      { question: "Is snow present on the trek?", answer: "Snow patches are common near the lake until early summer." },
+      { question: "Is mobile network available?", answer: "Limited network near Gulaba; none during the trek." }
+    ],
+    mapUrl: "https://maps.google.com/bhrigu-lake"
+  },
+
+  {
+    id: 36,
+    slug: "kheerganga-trek",
+    title: "Kheerganga Trek",
+    state: "Himachal Pradesh",
+    shortDescription: "A popular short trek in Parvati Valley best known for its natural hot water spring and scenic forest trails.",
+    price: 3500,
+    duration: "1–2 days",
+    activityTags: ["trekking", "hot-spring", "kasol", "beginners"],
+    images: [
+      { id: 1, src: "/images/packages/hp/hp-7.avif", alt: "Kheerganga natural hot spring" },
+      { id: 2, src: "/images/packages/hp/hp-5.avif", alt: "Parvati Valley landscape" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Camps/Guesthouses", icon: "fa-campground" },
+      arrivalCity: { text: "Barshaini", icon: "fa-map-marker-alt" },
+      bestSeason: { text: "Spring to Autumn (Mar–Nov)", icon: "fa-sun" },
+      guide: { text: "Local Trek Guide Available", icon: "fa-user-friends" },
+      maximumAltitude: { text: "9,700 ft", icon: "fa-mountain" },
+      meals: { text: "Dinner & Breakfast provided", icon: "fa-utensils" },
+      transportation: { text: "Drive from Kasol to Barshaini", icon: "fa-car" },
+      pickupPoint: { text: "Kasol/Barshaini", icon: "fa-map-pin" }
+    },
+    overview: {
+      title: "Kheerganga Trek Overview",
+      description: "The Kheerganga Trek in Parvati Valley is famous for its natural hot water spring at the summit and scenic forest trails. It combines adventure with leisure, making it ideal for beginners and casual travelers.",
+      highlights: [
+        { id: 1, highlight: "Natural hot water spring at the summit" },
+        { id: 2, highlight: "Dense pine and deodar forests" },
+        { id: 3, highlight: "Waterfalls and scenic river crossings" },
+        { id: 4, highlight: "Ideal short trek from Kasol" }
+      ],
+      activities: [
+        { title: "Hot Spring Soak", description: "Soak in the natural hot springs at the top.", emoji: "🛁" },
+        { title: "Forest Trek", description: "Walk through lush Parvati Valley forests.", emoji: "🌲" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Barshaini to Kheerganga", description: "Trek 5-6 km through forests and waterfalls. Enjoy the natural hot spring in the evening.", activities: ["Forest Hike", "Hot Spring Bath"] },
+      { day: 2, title: "Kheerganga to Barshaini", description: "Descend back via the same route and return to Kasol/Bhuntar.", activities: ["Descent", "Return Journey"] }
+    ],
+    cost: {
+      includes: ["Trek guide (optional)", "Camping or basic accommodation", "Meals (Dinner & Breakfast)", "Basic safety support"],
+      excludes: ["Travel to/from Barshaini", "Personal trekking gear", "Porter services", "Travel insurance", "Personal expenses"],
+      notes: ["Fit trekkers can complete this in a single long day."]
+    },
+    faqs: [
+      { question: "Is Kheerganga Trek good for beginners?", answer: "Yes, it is one of the easiest and most popular beginner treks in Himachal Pradesh." },
+      { question: "Can Kheerganga be done in one day?", answer: "Yes, fit trekkers can complete it in one day, but an overnight stay is recommended." },
+      { question: "Is the hot spring open year-round?", answer: "Yes, but access may be restricted during extreme weather." },
+      { question: "Is mobile network available?", answer: "Limited connectivity near Barshaini; no network at the top." }
+    ],
+    mapUrl: "https://maps.google.com/kheerganga"
+  },
+
+  {
+    id: 37,
+    slug: "hampta-pass-trek",
+    title: "Hampta Pass Trek",
+    state: "Himachal Pradesh",
+    shortDescription: "A spectacular crossover trek connecting the lush Kullu Valley with the stark high-altitude desert of Spiti.",
+    price: 11000,
+    duration: "4–6 days",
+    activityTags: ["trekking", "crossover", "adventure", "manali"],
+    images: [
+      { id: 1, src: "/images/packages/hp/hp-8.avif", alt: "Hampta Pass crossover" },
+      { id: 2, src: "/images/packages/hp/hp-3.avif", alt: "Arid desert of Spiti" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Tents during trek", icon: "fa-shield-alt" },
+      arrivalCity: { text: "Manali", icon: "fa-city" },
+      bestSeason: { text: "Summer to Early Autumn (June–Sept)", icon: "fa-calendar-check" },
+      guide: { text: "Certified Trek Leader & Staff", icon: "fa-user-check" },
+      maximumAltitude: { text: "14,100 ft", icon: "fa-mountain" },
+      meals: { text: "All Meals during the trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Manali to Jobra", icon: "fa-bus" },
+      pickupPoint: { text: "Manali", icon: "fa-map-pin" }
+    },
+    overview: {
+      title: "Hampta Pass Trek Overview",
+      description: "The Hampta Pass Trek is a spectacular crossover trek connecting the lush Kullu Valley with the stark desert of Lahaul & Spiti. It offers forests, meadows, glacial valleys, and barren mountains all in a single trek.",
+      highlights: [
+        { id: 1, highlight: "Dramatic transition from green valleys to cold desert" },
+        { id: 2, highlight: "Crossing the high altitude Hampta Pass (14,100 ft)" },
+        { id: 3, highlight: "Views of Indrasan, Deo Tibba & Mt. Norbu" },
+        { id: 4, highlight: "Optional visit to the turquoise Chandratal Lake" }
+      ],
+      activities: [
+        { title: "Pass Crossing", description: "Experience cross-valley trekking.", emoji: "🗺️" },
+        { title: "Glacial Crossing", description: "Walk over snow and ice near the pass.", emoji: "❄️" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Manali to Jobra → Chika", description: "Drive to Jobra and easy 4 km walk through forests to camp near the river.", activities: ["Forest Walk", "River Camping"] },
+      { day: 2, title: "Chika to Balu Ka Ghera", description: "Trek 8 km through meadows and cross glacial streams to reach Balu Ka Ghera.", activities: ["Meadow Trek", "River Crossing"] },
+      { day: 3, title: "Balu Ka Ghera → Hampta Pass → Shea Goru", description: "Steep 7-9 hr ascent to the pass and descent into the Lahaul region.", activities: ["Pass Crossing", "Landscape Shift"] },
+      { day: 4, title: "Shea Goru to Chatru", description: "Walk 5 km through cold desert terrain to Chatru campsite.", activities: ["Desert Trek", "Spiti Views"] },
+      { day: 5, title: "Chatru → Manali", description: "Drive back to Manali via Rohtang Pass (optional Chandratal visit included).", activities: ["Scenic Drive", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Certified trek leader & support staff", "Forest permits & camping fees", "Tents & Sleeping bags", "All meals during trek", "Medical kit & oxygen"],
+      excludes: ["Travel to/from Manali", "Personal gear", "Porter / offloading charges", "Travel insurance"],
+      notes: ["Acclimatization is key due to the crossover altitude."]
+    },
+    faqs: [
+      { question: "Is Hampta Pass suitable for beginners?", answer: "Yes, fit beginners can attempt it with proper preparation." },
+      { question: "Does Hampta Pass have snow?", answer: "Yes, snow is common near the pass from June to early July." },
+      { question: "Is Chandratal Lake included?", answer: "It is usually an optional extension subject to weather and road conditions." },
+      { question: "Is river crossing difficult?", answer: "Most crossings are manageable with guidance and safety support." }
+    ],
+    mapUrl: "https://maps.google.com/hampta-pass"
+  },
+
+  {
+    id: 38,
+    slug: "patalsu-peak-trek",
+    title: "Patalsu Peak Trek",
+    state: "Himachal Pradesh",
+    shortDescription: "A short summit trek near Manali offering a satisfying peak-climbing experience and panoramic Himalayan views.",
+    price: 6000,
+    duration: "2-3 days",
+    activityTags: ["trekking", "summit-climb", "beginner-friendly", "manali"],
+    images: [
+      { id: 1, src: "/images/packages/uk/uk-1.avif", alt: "Patalsu Peak summit views" },
+      { id: 2, src: "/images/packages/uk/uk-9.avif", alt: "Himalayan range from Patalsu" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Camping Accommodation", icon: "fa-campground" },
+      arrivalCity: { text: "Manali", icon: "fa-mountain" },
+      bestSeason: { text: "Summer to Autumn (May–Oct)", icon: "fa-sun" },
+      guide: { text: "Trek Guide & Support Staff", icon: "fa-user-check" },
+      maximumAltitude: { text: "13,800 ft", icon: "fa-mountain" },
+      meals: { text: "All Meals during the trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Manali to Solang Village", icon: "fa-car" },
+      pickupPoint: { text: "Manali", icon: "fa-map-marker-alt" }
+    },
+    overview: {
+      title: "Patalsu Peak Trek Overview",
+      description: "Patalsu Peak, rising above the Solang Valley, is a short summit trek often used for training and acclimatization. It offers exceptional views of Hanuman Tibba, Friendship Peak, and the Beas River valley from its 13,800 ft summit.",
+      highlights: [
+        { id: 1, highlight: "True summit climb near Manali" },
+        { id: 2, highlight: "Views of Hanuman Tibba, Friendship Peak & Deo Tibba" },
+        { id: 3, highlight: "Alpine meadows and scenic ridgelines" },
+        { id: 4, highlight: "Ideal first summit trek for beginners" }
+      ],
+      activities: [
+        { title: "Summit Push", description: "Experience reaching a Himalayan peak.", emoji: "⛰️" },
+        { title: "Acclimatization", description: "Great preparation for higher expeditions.", emoji: "🏔️" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Manali to Solang Village → Base Camp", description: "Short drive to Solang and 3-4 hour gradual ascent through forests to the base camp.", activities: ["Forest Trek", "Camping"] },
+      { day: 2, title: "Base Camp to Patalsu Peak Summit & Return", description: "Early morning start for the summit push to 13,800 ft. Enjoy panoramic views and descend to base camp.", activities: ["Summit Achievement", "Ridge Walk"] },
+      { day: 3, title: "Trek Back to Solang Village → Manali", description: "Descend to Solang and drive back to Manali village.", activities: ["Descent", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Trek guide & support staff", "Camping accommodation", "Meals during the trek", "Basic camping equipment", "First-aid & safety support"],
+      excludes: ["Travel to/from Manali", "Personal trekking gear", "Porter / mule services", "Travel insurance", "Personal expenses"],
+      notes: ["Fit trekkers sometimes complete this in 2 days."]
+    },
+    faqs: [
+      { question: "Is Patalsu Peak Trek good for beginners?", answer: "Yes, it is one of the best beginner-friendly summit treks near Manali." },
+      { question: "Does Patalsu Peak have snow?", answer: "Snow is common near the summit in early summer months." },
+      { question: "Is technical climbing required?", answer: "No, the trek does not require mountaineering skills or special equipment." },
+      { question: "What is the maximum altitude?", answer: "Approximately 13,800 ft (4,200 m)." }
+    ],
+    mapUrl: "https://maps.google.com/patalsu-peak"
+  },
+
+  {
+    id: 39,
+    slug: "rani-sui-lake-trek",
+    title: "Rani Sui Lake Trek",
+    state: "Himachal Pradesh",
+    shortDescription: "A scenic and offbeat alpine lake trek in the Tirthan region, perfect for nature lovers and peace seekers.",
+    price: 8000,
+    duration: "3–4 days",
+    activityTags: ["trekking", "offbeat", "alpine-lake", "tirthan"],
+    images: [
+      { id: 1, src: "/images/packages/uk/uk-2.avif", alt: "Heart-shaped Rani Sui alpine lake" },
+      { id: 2, src: "/images/packages/uk/uk-10.avif", alt: "Meadows of Banjar Valley" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Camping & Homestays", icon: "fa-home" },
+      arrivalCity: { text: "Banjar/Manali", icon: "fa-map-marker-alt" },
+      bestSeason: { text: "Summer & Autumn (May–Oct)", icon: "fa-sun" },
+      guide: { text: "Trek Guide & Local Support", icon: "fa-user-check" },
+      maximumAltitude: { text: "12,600 ft", icon: "fa-mountain" },
+      meals: { text: "Nutritious Meals during the trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Banjar to Base Village", icon: "fa-car" },
+      pickupPoint: { text: "Banjar/Aut/Manali", icon: "fa-map-pin" }
+    },
+    overview: {
+      title: "Rani Sui Lake Trek Overview",
+      description: "Rani Sui Lake is a scenic and relatively lesser-known 'heart-shaped' lake in Himachal Pradesh. Located above the Banjar Valley, it offers peaceful trails away from crowded circuits, featuring expansive meadows and wide mountain views of the Pir Panjal and Dhauladhar ranges.",
+      highlights: [
+        { id: 1, highlight: "Serene Rani Sui alpine lake (Heart-Shaped Lake)" },
+        { id: 2, highlight: "Quiet, uncrowded offbeat trails through Tirthan" },
+        { id: 3, highlight: "Stunning views of Dhauladhar & Pir Panjal ranges" },
+        { id: 4, highlight: "Cultural experience in remote Himalayan villages" }
+      ],
+      activities: [
+        { title: "Nature Exploration", description: "Discover the hidden beauty of Banjar valley.", emoji: "🍃" },
+        { title: "Photography", description: "Capture the perfect heart-shaped lake reflection.", emoji: "📸" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Banjar to Base Village (Sharchi/Lamadugh)", description: "Drive to the base village and stay in a traditional homestay or first campsite.", activities: ["Cultural Welcome", "Orientation"] },
+      { day: 2, title: "Base Village to Forest Campsite", description: "Trek 6-7 km through dense oak and cedar forests and lush meadows.", activities: ["Forest Hike", "Alpine Camping"] },
+      { day: 3, title: "Campsite to Rani Sui Lake & Return", description: "Reach the sacred lake at 12,600 ft. Explore the area and return to the lower camp.", activities: ["Lake Visit", "Scenic Views"] },
+      { day: 4, title: "Return Trek & Drive Back", description: "Descend to the base village and drive back to Banjar/Manali.", activities: ["Descent", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Trek guide & local support", "Camping accommodation & Homestays", "Meals during the trek", "Camping equipment (tents, mats, bags)", "Basic safety support"],
+      excludes: ["Travel to/from Banjar", "Personal gear", "Porter/mule services", "Travel insurance", "Personal expenses"],
+      notes: ["An ideal alternative to the crowded routes of Manali."]
+    },
+    faqs: [
+      { question: "Is Rani Sui Lake suitable for beginners?", answer: "Yes, it is a moderate trek suitable for beginners with basic fitness." },
+      { question: "Why is it called the heart-shaped lake?", answer: "The lake's natural shoreline forms a heart shape when viewed from the surrounding ridges." },
+      { question: "Is the trek crowded?", answer: "No, it is one of the more offbeat and peaceful treks in the region." }
+    ],
+    mapUrl: "https://maps.google.com/rani-sui-lake"
+  },
+
+  {
+    id: 40,
+    slug: "sar-pass-trek",
+    title: "Sar Pass Trek",
+    state: "Himachal Pradesh",
+    shortDescription: "A legendary trek in Parvati Valley famous for its snowfields, alpine meadows, and a massive 100ft long snow slide.",
+    price: 11000,
+    duration: "5-6 days",
+    activityTags: ["trekking", "snow-trek", "adventure", "parvati-valley"],
+    images: [
+      { id: 1, src: "/images/packages/uk/uk-3.avif", alt: "Sar Pass snow trail" },
+      { id: 2, src: "/images/packages/uk/uk-5.avif", alt: "Frozen lake at the pass" }
+    ],
+    tripInfo: {
+      accommodation: { text: "Camping Accommodation", icon: "fa-campground" },
+      arrivalCity: { text: "Kasol", icon: "fa-home" },
+      bestSeason: { text: "Summer & Early Autumn (May–Oct)", icon: "fa-snowflake" },
+      guide: { text: "Certified Trek Guide & Staff", icon: "fa-user-tie" },
+      maximumAltitude: { text: "13,850 ft", icon: "fa-mountain" },
+      meals: { text: "Nutritious Veg Meals during trek", icon: "fa-utensils" },
+      transportation: { text: "Drive from Kasol to Barshaini (return)", icon: "fa-bus" },
+      pickupPoint: { text: "Kasol", icon: "fa-map-pin" }
+    },
+    overview: {
+      title: "Sar Pass Trek Overview",
+      description: "Sar Pass is one of the most legendary treks in the Parvati Valley. Reaching an altitude of 13,850 ft, it offers the ultimate high-altitude adventure featuring dense forests, pristine snowfields, and the famous 'snow slide' experience.",
+      highlights: [
+        { id: 1, highlight: "Crossing the 13,850 ft Sar Pass" },
+        { id: 2, highlight: "Thrilling 100ft long natural snow slide" },
+        { id: 3, highlight: "Passing through the ancient village of Grahan" },
+        { id: 4, highlight: "Multiple frozen high-altitude lakes (Sar)" }
+      ],
+      activities: [
+        { title: "Snow Sliding", description: "Experience safe and fun slides on snow slopes.", emoji: "🛷" },
+        { title: "Peak Gaze", description: "Panoramic views of Shivling and Indrasan.", emoji: "🏔️" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "Kasol to Grahan Village", description: "Trek 7-9 km through dense pine forests alongside the Grahan Nallah to the ancient village.", activities: ["Forest Hike", "Cultural Interaction"] },
+      { day: 2, title: "Grahan to Min Thach", description: "Ascend through forests of rhododendron and cedar to the alpine meadow of Min Thach.", activities: ["Forest Ascent", "Meadow Camping"] },
+      { day: 3, title: "Min Thach to Nagaru", description: "Steep climb to Nagaru, the highest campsite, offering stunning sunset views over Parvati Valley.", activities: ["Acclimatization Hike", "High Altitude Camp"] },
+      { day: 4, title: "Nagaru → Sar Pass → Biskeri Thach", description: "The summit day! Cross the 13,850 ft pass, enjoy the snow slide, and descend to lush Biskeri.", activities: ["Pass Crossing", "Snow Slide"] },
+      { day: 5, title: "Biskeri Thach to Barshaini → Kasol", description: "Final descent through forests and village fields to Barshaini, then drive back to Kasol.", activities: ["Descent", "Return Trip"] }
+    ],
+    cost: {
+      includes: ["Certified trek guide & support staff", "Camping accommodation (Tents/Sleeping bags)", "All veg meals during trek", "Forest permits & camping fees", "Safety support"],
+      excludes: ["Travel to/from Kasol", "Personal gear", "Porter services", "Travel insurance", "Offloading charges"],
+      notes: ["Moderate grade; involves significant snow trekking in early summer."]
+    },
+    faqs: [
+      { question: "Is Sar Pass Trek suitable for beginners?", answer: "Yes, with basic fitness and mental preparation, beginners can complete this trek." },
+      { question: "What is the maximum altitude?", answer: "Approximately 13,850 ft (4,223 m)." },
+      { question: "Is snow present year-round?", answer: "Snow is heavy until June and patches remain through early summer." },
+      { question: "What is the age limit?", answer: "Generally 10 years and above for this moderate grade trek." }
+    ],
+    mapUrl: "https://maps.google.com/sar-pass"
+  },
+
+  {
+    id: 41,
+    slug: "triund-trek",
+    title: "Triund Trek",
+    state: "Himachal Pradesh",
+    shortDescription: "The crown jewel of Dharamshala, famous for its panoramic views of the Dhauladhar range and Kangra Valley.",
+    price: 4500,
+    duration: "1–2 days",
+    activityTags: ["trekking", "camping", "beginners", "dharamshala"],
+    images: [
+      { id: 1, src: "/images/packages/uk/uk-4.avif", alt: "Triund ridge overlooking Bhagsu" },
+      { id: 2, src: "/images/packages/uk/uk-6.avif", alt: "Sunset views of Dhauladhars" }
+    ],
+    tripInfo: {
+      accommodation: { text: "High Altitude Camping", icon: "fa-campground" },
+      arrivalCity: { text: "McLeod Ganj", icon: "fa-city" },
+      bestSeason: { text: "Mar–June & Sept–Nov", icon: "fa-sun" },
+      guide: { text: "Trek Guide & Support Staff", icon: "fa-walking" },
+      maximumAltitude: { text: "9,500 ft", icon: "fa-mountain" },
+      meals: { text: "Meals during the trek", icon: "fa-utensils" },
+      transportation: { text: "Trek from Galu Devi Temple", icon: "fa-hiking" },
+      pickupPoint: { text: "McLeod Ganj", icon: "fa-map-pin" }
+    },
+    overview: {
+      title: "Triund Trek Overview",
+      description: "Triund is the easiest and most popular trek in Dharamshala. Known as the 'crown jewel', it features a well-marked trail through lush forests of oak and rhododendron, leading to a ridge with panoramic peak views.",
+      highlights: [
+        { id: 1, highlight: "Panoramic views of snow-capped Dhauladhar range" },
+        { id: 2, highlight: "Camping under a star-filled sky on the ridge" },
+        { id: 3, highlight: "Breathtaking sunset and sunrise views" },
+        { id: 4, highlight: "The famous '22 curves' final ascent" }
+      ],
+      activities: [
+        { title: "Sunset View", description: "Witness the stunning 'Magic Hour' at Triund top.", emoji: "🌅" },
+        { title: "Peak Gaze", description: "Get close-up views of the granite peaks.", emoji: "🏔️" }
+      ]
+    },
+    itinerary: [
+      { day: 1, title: "McLeod Ganj to Triund Top", description: "Start the trek from Galu Devi Temple and climb 9-10 km through deodar and oak forests to the Triund ridge.", activities: ["Forest Hike", "Sunset Camping"] },
+      { day: 2, title: "Triund to McLeod Ganj", description: "Wake up to a spectacular sunrise. After breakfast, explore the area or Snowline and descend to Galu.", activities: ["Sunrise view", "Return Hike"] }
+    ],
+    cost: {
+      includes: ["Trek guide & support staff", "Forest permits & camping fees", "Camping equipment (tents, mats, bags)", "Meals (Dinner & Breakfast)", "Safety support"],
+      excludes: ["Travel to/from McLeod Ganj", "Personal trekking gear", "Porter services", "Travel insurance", "Lunch on Day 2"],
+      notes: ["One of the best 'weekend' treks in India for beginners."]
+    },
+    faqs: [
+      { question: "Is Triund Trek suitable for beginners?", answer: "Yes, it is one of the easiest Himalayan treks and perfect for first-timers." },
+      { question: "Can it be done in one day?", answer: "Yes, fit trekkers can complete the round trip in 7-8 hours." },
+      { question: "Is there mobile network?", answer: "Generally, Airtel and Jio networks work well on the Triund ridge." },
+      { question: "What is the best time to visit?", answer: "March to June and September to November offer the best weather." }
+    ],
+    mapUrl: "https://maps.google.com/triund"
+  },
+
 
 ];
 
 export default packages;
+
 

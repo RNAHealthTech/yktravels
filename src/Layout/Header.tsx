@@ -54,6 +54,18 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
               name: "Nag Tibba Trek", path: "/packages/nag-tibba-trek"
             },
             {
+              name: "Brahmatal Trek", path: "/packages/brahmatal-trek"
+            },
+            {
+              name: "Kedarkantha Trek", path: "/packages/kedarkantha-trek"
+            },
+            {
+              name: "Pindari Glacier Trek", path: "/packages/pindari-glacier-trek"
+            },
+            {
+              name: "Roopkund Trek", path: "/packages/roopkund-trek"
+            },
+            {
               name: "Ruinsara Tal Trek", path: "/packages/ruinsara-tal-trek"
             },
             {
@@ -62,6 +74,7 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
             {
               name: "Ali Bedni Bugyal Trek", path: "/packages/ali-bedni-bugyal-trek"
             },
+
             { name: "Phulara Ridge Trek", path: "/packages/phulara-ridge-trek" },
             { name: "Dayara Bugyal Trek  ", path: "/packages/dayara-bugyal-trek" },
             { name: "Kauri Pass Trek", path: "/packages/kauri-pass-trek" },
@@ -77,6 +90,14 @@ const Header: React.FC<HeaderProps> = ({ logo = "/images/logo.svg" }) => {
           name: "Himachal Pradesh",
           path: "/packages/himachal",
           submenu: [
+            { name: "Beas Kund Trek", path: "/packages/beas-kund-trek" },
+            { name: "Bhrigu Lake Trek", path: "/packages/bhrigu-lake-trek" },
+            { name: "Kheerganga Trek", path: "/packages/kheerganga-trek" },
+            { name: "Hampta Pass Trek", path: "/packages/hampta-pass-trek" },
+            { name: "Patalsu Peak Trek", path: "/packages/patalsu-peak-trek" },
+            { name: "Rani Sui Lake Trek", path: "/packages/rani-sui-lake-trek" },
+            { name: "Sar Pass Trek", path: "/packages/sar-pass-trek" },
+            { name: "Triund Trek", path: "/packages/triund-trek" },
             { name: "Manali", path: "/packages/manali-yk-travels" },
             { name: "Shimla", path: "/packages/shimla-yk-travels" },
             { name: "Dharamshala", path: "/packages/dharamshala-yk-travels" },
